@@ -5,52 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 距离下次重置剩余：21 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip2 越南-03, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: 17c0145a-7d5d-417c-b908-55f586e029cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: 17c0145a-7d5d-417c-b908-55f586e029cf, sni: uk01.ckcloud.info, skip-cert-verify: true}
   - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: 172.67.237.176, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
   - {name: 🇦🇺 _AU_澳大利亚, server: 139.99.245.164, port: 49921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 2, server: 172.64.90.210, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
@@ -81,13 +35,90 @@ proxies:
   - {name: 🇺🇸 _US_美国 7, server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国 8, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
   - {name: 🇫🇷 _FR_法国, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 1, server: hk.untilmu.com, port: 29996, type: vmess, uuid: 1837cc60-b660-4712-ab6c-e2734c757858, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 1, server: hk.untilmu.com, port: 29996, type: vmess, uuid: a0c6381a-39f0-4bde-b3b6-37857e05d9a1, alterId: 0, cipher: auto, tls: false}
+  - {name: 距离下次重置剩余：21 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip2 越南-03, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: 6be48998-b235-458f-92ac-3f6ad15a7b20, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: aus01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: 6be48998-b235-458f-92ac-3f6ad15a7b20, sni: uk01.ckcloud.info, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -134,42 +165,42 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -216,43 +247,43 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -299,41 +330,12 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇭🇰 香港 1
       - 🇭🇰 vip1 香港-01
       - 🇭🇰 vip1 香港-01_1
       - 🇭🇰 vip1 香港-02
@@ -352,14 +354,43 @@ proxy-groups:
       - 🇨🇳 vip1 台湾-05
       - 🇨🇳 vip1 台湾-05_1
       - 🇨🇳 vip1 台湾-06
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇭🇰 香港 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -406,42 +437,42 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -488,43 +519,43 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -571,37 +602,6 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -617,6 +617,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇦🇺 _AU_澳大利亚
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
+      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 _US_美国 3
+      - 🇯🇵 _JP_日本->🇺🇸_US_美国
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
+      - 🇺🇸 _US_美国 4
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇫🇷 _FR_法国
+      - 🇭🇰 香港 1
       - 距离下次重置剩余：21 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -663,37 +694,6 @@ proxy-groups:
       - 🇩🇪 vip1 德国-02
       - 🇬🇧 vip1 英国-03
       - 🇬🇧 vip1 英国-04
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
-      - 🇦🇺 _AU_澳大利亚
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 3
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 4
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 6
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 7
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 9
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 10
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 11
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 12
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 13
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国 3
-      - 🇯🇵 _JP_日本->🇺🇸_US_美国
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 14
-      - 🇺🇸 _US_美国 4
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇧🇷_BR_巴西 15
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇫🇷 _FR_法国
-      - 🇭🇰 香港 1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
