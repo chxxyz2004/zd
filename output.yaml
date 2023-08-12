@@ -5,53 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 1, server: hk.untilmu.com, port: 29996, type: vmess, uuid: faf42c84-e921-4946-93b3-4417c77ff1e7, alterId: 0, cipher: auto, tls: false}
-  - {name: 距离下次重置剩余：19 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip2 越南-03, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: jp001.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: rctw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: bd7971bd-6d7c-41c1-aa6f-84badc69fc71, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：19 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip2 越南-03, server: gzyd01.jcnode.top, port: 27934, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: jp001.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: 744500a0-f91b-473e-ae38-26940e0bd75c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: aus01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: 744500a0-f91b-473e-ae38-26940e0bd75c, sni: uk01.ckcloud.info, skip-cert-verify: true}
   - {name: 🇺🇸 _US_美国, server: 172.67.27.227, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
   - {name: 🇯🇵 _JP_日本, server: 3.112.225.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /SMNxcwVdTTzcou9yQftDyZcCGQui9a, headers: {Host: paris.yj2022.gq}}}
@@ -83,13 +82,13 @@ proxies:
   - {name: 🇺🇸 _US_美国 5, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
   - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 8, server: 141.101.120.188, port: 2052, type: vmess, uuid: 6e13ff0b-55a6-3767-8b92-3098fda40927, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}}
   - {name: 🇺🇸 _US_美国 6, server: 64.32.24.210, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 1, server: hk.untilmu.com, port: 29996, type: vmess, uuid: d13a63e1-f3e3-453c-8028-8ab955710fa8, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -167,12 +166,12 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -250,13 +249,13 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -334,11 +333,11 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 1
       - 🇭🇰 vip1 香港-01
       - 🇭🇰 vip1 香港-01_1
       - 🇭🇰 vip1 香港-02
@@ -363,13 +362,13 @@ proxy-groups:
       - 🇭🇰 _HK_香港->🇺🇸_US_美国 4
       - 🇭🇰 _HK_香港
       - 🇭🇰 _HK_香港->🇺🇸_US_美国 5
+      - 🇭🇰 香港 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -447,12 +446,12 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -530,13 +529,13 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -614,6 +613,7 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -629,7 +629,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 1
       - 距离下次重置剩余：19 天
       - "快飞永久跳转地址: https://fastfly.club"
       - 🇻🇳 vip1 越南-01
@@ -707,6 +706,7 @@ proxy-groups:
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国->🇧🇷_BR_巴西 8
       - 🇺🇸 _US_美国 6
+      - 🇭🇰 香港 1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
