@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `5`
-Updata：`2023-08-16 02:20:04`
+Updata：`2023-08-16 05:14:58`
 
 
 <details>
@@ -17354,47 +17354,57 @@ Updata：`2023-08-16 02:20:04`
 
 
 
+
+
+
+
+
+
+
+
+
+
 >Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=5afb652030b50660a552a025b2f040bd`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=41c69e9fa984f112bfea3b23e61c1c12`
 
 
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=846a9e859809c9845980f8242ab8087e`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=41c69e9fa984f112bfea3b23e61c1c12`
+
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=846a9e859809c9845980f8242ab8087e`
+
+>Trial subscription：
+`https://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=72481ef66f7c80a64cdc0a279a3f54d2`
+
+
+
+>Trial subscription：
+`https://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=72481ef66f7c80a64cdc0a279a3f54d2`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2023-08-15/9SQm1kq.txt`
 
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=5afb652030b50660a552a025b2f040bd`
-
-
-
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2023-08-15/9SQm1kq.txt`
 
->Trial subscription：
-`https://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=97ad5ce0931e0465e0493f211f9a4005`
-
 
 
 >Trial subscription：
-`https://xn--4gqu8thxjfje.com/api/v1/client/subscribe?token=97ad5ce0931e0465e0493f211f9a4005`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a49f4c9fcc5bfc9ac0f7dde03ca03bea`
-
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=058912ff4684290d5cd3a75719af6069`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=a49f4c9fcc5bfc9ac0f7dde03ca03bea`
-
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2b59f7b89656f7f844fd29dfc507ca91`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=2b59f7b89656f7f844fd29dfc507ca91`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=058912ff4684290d5cd3a75719af6069`
 
 
 
