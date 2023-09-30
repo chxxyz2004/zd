@@ -5,91 +5,88 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧盟 V2CROSS.COM, server: mtn.gv2ray.sbs, port: 80, type: vmess, uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa, server: 854.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: Amsterdam-DigitalOcean, server: 183.232.230.45, port: 19049, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇨🇳 上海市 电信, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
-  - {name: 🇸🇬 JCBB_ 新加坡 02【vip1 】, server: gzdx.jcnode.top, port: 41754, type: trojan, password: ee79c3bb-6241-479e-afcc-713c0934b707, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港10【vip1】, server: gzdx.jcnode.top, port: 27753, type: trojan, password: ee79c3bb-6241-479e-afcc-713c0934b707, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 香港HKT-dip, server: 183.232.230.44, port: 19040, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 @hkaa0||美国, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本->🇰🇷_KR_韩国, server: fschk.1234567890spcloud.com, port: 20008, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a}
-  - {name: 🇸🇬 vip1 新加坡-08-SS, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
-  - {name: 🇭🇰 vip1 香港-01-SS, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
-  - {name: 🇳🇱 @hkaa0||荷兰, server: 154.85.1.244, port: 54982, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
-  - {name: 🇭🇰 香港HKT-dip 2, server: 183.232.230.46, port: 19094, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: 198.41.217.5, port: 2087, type: vmess, uuid: 7b8b526f-c372-42d7-941a-86273b424d94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2v2rayTEAM, headers: {Host: docs2.obneh247.ir}}}
-  - {name: 🇯🇵 Tokyo-NTT, server: 183.232.230.42, port: 19050, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: 3.133.47.214, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: 198.2.204.55, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695552397318, headers: {Host: www.44337922.xyz}}}
-  - {name: 🇬🇧 英国_Telegram@kxswa, server: 13.43.18.2, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: 108.186.178.131, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.88998600.xyz}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: 183.249.20.149, port: 64096, type: vmess, uuid: fa18fc1b-6160-3665-8345-6c6fcca4c521, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 31 @nodpai, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748}}
-  - {name: 🇸🇬 Singapore-Contabo, server: 183.232.230.45, port: 19057, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 🇭🇰 香港HKT-dip 3, server: 183.232.230.42, port: 19094, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇭🇰 香港HKT-dip 4, server: 183.232.230.46, port: 19083, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 United States 32 @nodpai, server: 45.199.138.198, port: 58336, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 中转 🇮🇳 India 01 @nodpai, server: 15018.kuaiyin.win, port: 15018, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Tokyo-NTT 2, server: 183.232.230.44, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇯🇵 Tokyo-NTT 3, server: 183.232.230.43, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: 108.186.178.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695204567237, headers: {Host: www.88998600.xyz}}}
-  - {name: 🇨🇳 新北Hinet-dip, server: 183.232.230.42, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇭🇰 @hkaa0||香港, server: 156.245.8.144, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: 137.175.18.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695552397318, headers: {Host: www.66273264.xyz}}}
-  - {name: Yongin-Moack-dip, server: 183.232.230.46, port: 18999, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
   - {name: 🇨🇦 Toronto-DigitalOcean, server: 183.232.230.46, port: 19043, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇩🇪 vip1 德国-03-SS, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇨🇳 vip1 台湾-08-SS, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai, server: 10.kccic2pa.xyz, port: 50010, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 20, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 137.175.22.131, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.84913025.xyz}}}
-  - {name: 🇨🇳 新北Hinet-dip 2, server: 183.232.230.45, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 02 @nodpai, server: 18.kccic2pa.xyz, port: 50018, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 新北Hinet-dip 3, server: 183.232.230.42, port: 19045, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇳🇱 Netherlands 10 @nodpai, server: amstd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 43.207.138.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇦🇺 vip1 澳大利亚-02-SS, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇺🇸 United States 02 @nodpai, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 13, server: 137.175.86.132, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.46074906.xyz}}}
+  - {name: 🇨🇦 Toronto-DigitalOcean 2, server: 183.232.230.45, port: 19043, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇨🇳 新北Hinet-dip, server: 183.232.230.62, port: 19045, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇻🇳 _VN_越南, server: vn5.4gspeed.me, port: 80, type: vmess, uuid: a05b6151-b432-487c-936a-534c20c60c20, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: 🇸🇬 Singapore-Contabo, server: 183.232.230.45, port: 19079, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 _ES_西班牙->🇺🇸_US_美国, server: 185.214.103.89, port: 80, type: vmess, uuid: 553f0ec0-1af3-3a0c-ab4a-00d2f3ec670f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00}}
+  - {name: 🇺🇸 @hkaa0||美国, server: 38.75.137.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 vip1 台湾-07-SS, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 045d5de0-78df-446d-bda5-a381dcfb5e36}
+  - {name: 🇻🇳 _VN_越南 2, server: 103.239.67.31, port: 80, type: vmess, uuid: a05b6151-b432-487c-936a-534c20c60c20, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me}}
+  - {name: 🇷🇺 俄罗斯|@ripaojiedian, server: v116a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-kDPxxx6Otf, headers: {Host: v116a.ai88888.top}}}
+  - {name: 🇭🇰 JCBB_香港03_1【vip1】, server: gzyd.jcnode.top, port: 49486, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国03【vip1】, server: gzyd.jcnode.top, port: 24662, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 香港HKT-dip, server: 183.232.230.43, port: 19083, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇯🇵 JCBB_日本01【vip1】, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa, server: 941.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bl.shabijichang.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: 198.2.202.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 01 @nodpai, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: 1e57bafd-e0d8-4881-914d-43f714795a91}
+  - {name: 🇬🇧 英国_Telegram@kxswa, server: 18.130.182.207, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇸 United States 14 @nodpai, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: 854.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇺🇸 United States 08 @nodpai, server: 38.63.0.71, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/053133263111}}
+  - {name: 🇯🇵 _JP_日本, server: 18.183.208.50, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 @hkaa0||美国 2, server: 45.199.138.229, port: 39661, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇪 瑞典_Telegram@kxswa, server: 13.50.78.230, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: se2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: se2.shabijichang.com}}}
-  - {name: 🇨🇳 JCBB_ 台湾 01_1【vip1】, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: ee79c3bb-6241-479e-afcc-713c0934b707, sni: rctw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}}
-  - {name: 🇭🇰 香港HKT-dip 5, server: 183.232.230.46, port: 19040, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: "", server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇭🇰 _HK_香港, server: 156.245.8.145, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国_Telegram@kxswa 2, server: 51.142.185.215, port: 33866, type: ss, cipher: chacha20-ietf-poly1305, password: SMTHK9ius1vgLsgHSRTbNM}
-  - {name: 🇨🇳 台北Hinet-dip, server: 183.232.230.43, port: 19046, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇭🇰 vip1 香港-15-SS, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 415bcb23-c545-4374-ad17-b24b7913c99b}
-  - {name: 🇭🇰 香港HKT-dip 6, server: 183.232.230.43, port: 19083, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 15, server: hdlb4.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb4.shabijichang.com}}}
-  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 8.218.224.130, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 欧盟 V2CROSS.COM 2, server: mtn.gv2ray.sbs, port: 80, type: vmess, uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl.shabijichang.com}}}
-  - {name: 🇭🇰 香港B|@ripaojiedian, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港HKT-dip 7, server: 183.232.230.62, port: 19085, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 _US_美国 2, server: 137.175.23.181, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.22866947.xyz}}}
-  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 20013, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: 🇫🇷 Paris-Dyjix-dip, server: 183.232.230.44, port: 19097, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 16, server: zjg.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: zjg.shabijichang.com}}}
-  - {name: 🇷🇺 St Petersburg-Selectel, server: 183.232.230.44, port: 19080, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇯🇵 _JP_日本->🇬🇧_GB_英国, server: ashdoiashjoi.fscloud12345678901.com, port: 20005, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: fscfsc.1234567890spcloud.com, skip-cert-verify: true}
-  - {name: 🇯🇵 github.com/freefq - 日本  28, server: 146.56.184.135, port: 8880, type: vmess, uuid: 25465c09-633c-30d1-a538-d05009f6cd85, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: b.cn-db.top}}}
-  - {name: 🇨🇳 新北Hinet-dip 4, server: 183.232.230.62, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇫🇷 Paris-Dyjix-dip 2, server: 183.232.230.42, port: 19097, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 United States 28 @nodpai, server: 192.74.224.162, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 新北Hinet-dip 5, server: 183.232.230.46, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇺🇸 JCBB_ 美国 03【vip1】, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: ee79c3bb-6241-479e-afcc-713c0934b707, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 3, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
-  - {name: 🇯🇵 Tokyo-NTT 4, server: 183.232.230.62, port: 19050, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 4, server: 120.241.46.222, port: 64099, type: vmess, uuid: e433833f-77e3-32d6-9613-32320f530e5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 JCBB_ 印度02【vip1】, server: gzdx.jcnode.top, port: 18085, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 香港HKT-dip 2, server: 183.232.230.46, port: 19094, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai, server: 120.241.46.222, port: 64012, type: vmess, uuid: 1f3eb856-26ca-3480-872c-c911ea27cf65, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: 198.2.213.181, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.71585518.xyz}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 34.kccic2pa.xyz, port: 50034, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
+  - {name: github.com/freefq - 欧盟  38, server: mtn.gv2ray.sbs, port: 80, type: vmess, uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl.shabijichang.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: Hanoi-HOSTINGVIET, server: 183.232.230.46, port: 10007, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: 38.26.135.22, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695552397318, headers: {Host: www.39838266.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: 104.22.0.154, port: 2053, type: vmess, uuid: ada2118c-2e5b-4786-b7a6-db51c3289fc7, alterId: 0, cipher: auto, tls: true, network: grpc, servername: "", grpc-opts: {grpc-service-name: grpc2053}}
+  - {name: 🇭🇰 香港HKT-dip 3, server: 183.232.230.45, port: 19094, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: Hanoi-HOSTINGVIET 2, server: 183.232.230.45, port: 10007, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 @hkaa0||美国 3, server: 45.199.138.162, port: 48112, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇳🇱 Netherlands 02 @nodpai, server: 45.199.138.227, port: 46833, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇻🇳 越南_Telegram@kxswa, server: vn5.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: 🇳🇱 Netherlands 07 @nodpai, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684580752213}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.161.181, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: 142.4.104.168, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.72304286.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: 45.199.138.225, port: 47905, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 Tokyo-NTT, server: 183.232.230.62, port: 10006, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 20022, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇹🇷 JCBB_土耳其 03【vip1】, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 香港HKT-dip 4, server: 183.232.230.43, port: 19040, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇯🇵 Tokyo-NTT 2, server: 183.232.230.43, port: 19050, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa, server: 120.241.46.222, port: 64099, type: vmess, uuid: e433833f-77e3-32d6-9613-32320f530e5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 08 @nodpai, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 新北Hinet-dip 2, server: 183.232.230.42, port: 19038, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: Miami-Cogent-dip, server: 23.146.144.36, port: 10002, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 JCBB_香港10【vip1】, server: gzdx.jcnode.top, port: 27753, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai, server: gg.58n.net, port: 17629, type: trojan, password: e1195de7-b8bc-345b-8a50-564a2a9294e9, sni: z258.hongkongnode.top, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol}
+  - {name: Yongin-Moack-dip, server: 183.232.230.44, port: 18999, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: xn2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: 🇨🇳 github.com/freefq - 上海市电信 20, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
+  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
+  - {name: 🇱🇺 卢森堡|频道:@ripaojiedian, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
+  - {name: 🇻🇳 vip1 越南-02-SS, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 045d5de0-78df-446d-bda5-a381dcfb5e36}
+  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: 137.175.12.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.43706572.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 107.148.203.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.30610304.xyz}}}
+  - {name: 🇯🇵 vip1 日本-01-SS, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 045d5de0-78df-446d-bda5-a381dcfb5e36}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa, server: 195.123.238.229, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: TrikGtY68Jn10BwegTed}
+  - {name: 🇫🇷 Paris-Dyjix-dip, server: 183.232.230.42, port: 19097, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 27, server: 854.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇨🇳 China 04 @nodpai, server: 137.175.86.189, port: 37399, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 13, server: amstd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇨🇳 新北Hinet-dip 3, server: 183.232.230.62, port: 19038, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 06 @nodpai, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 1e57bafd-e0d8-4881-914d-43f714795a91}
+  - {name: Miami-Cogent-dip 2, server: 183.232.230.46, port: 10002, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇻🇳 越南_Telegram@kxswa 2, server: vn2.4gspeed.me, port: 80, type: vmess, uuid: 80c32b3b-d3bd-4535-a4ae-66a1924da2bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn2.4gspeed.me}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 137.175.49.210, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695652618025, headers: {Host: www.36443410.xyz}}}
+  - {name: 🇨🇳 新北Hinet-dip 4, server: 183.232.230.45, port: 19047, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇸🇬 JCBB_ 新加坡 01【vip1 】, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 35a331e3-c0a3-41b1-a875-6dd2120bf386, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 中转 🇺🇸 United States 11 @nodpai, server: gg.58n.net, port: 21970, type: trojan, password: e1195de7-b8bc-345b-8a50-564a2a9294e9, sni: x41.flybar.work, skip-cert-verify: true}
+  - {name: 🇭🇰 香港HKT-dip 5, server: 183.232.230.44, port: 19085, type: vmess, uuid: 069848ac-38c3-34e5-8e56-296788c59616, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: t.me.vpnhat}}}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 4, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -108,273 +105,264 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国_Telegram@kxswa
-      - Amsterdam-DigitalOcean
-      - 🇨🇳 上海市 电信
-      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
-      - 🇭🇰 JCBB_香港10【vip1】
-      - 🇭🇰 香港HKT-dip
+      - 🇨🇦 Toronto-DigitalOcean
+      - 🇨🇦 Toronto-DigitalOcean 2
+      - 🇨🇳 新北Hinet-dip
+      - 🇻🇳 _VN_越南
+      - 🇸🇬 Singapore-Contabo
+      - 🇺🇸 _ES_西班牙->🇺🇸_US_美国
       - 🇺🇸 @hkaa0||美国
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇸🇬 vip1 新加坡-08-SS
+      - 🇨🇳 vip1 台湾-07-SS
+      - 🇻🇳 _VN_越南 2
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇭🇰 JCBB_香港03_1【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇭🇰 香港HKT-dip
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇺🇸 美国_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇭🇰 vip1 香港-01-SS
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 United States 14 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇳🇱 @hkaa0||荷兰
-      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 United States 08 @nodpai
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇮🇳 JCBB_ 印度02【vip1】
       - 🇭🇰 香港HKT-dip 2
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - github.com/freefq - 欧盟  38
       - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇯🇵 Tokyo-NTT
+      - Hanoi-HOSTINGVIET
       - 🇺🇸 美国_Telegram@kxswa 6
       - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇺🇸 United States 31 @nodpai
-      - 🇸🇬 Singapore-Contabo
-      - 🇺🇸 美国_Telegram@kxswa 9
       - 🇭🇰 香港HKT-dip 3
-      - 🇭🇰 香港HKT-dip 4
-      - 🇺🇸 United States 32 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
-      - 🇯🇵 Tokyo-NTT 2
-      - 🇯🇵 Tokyo-NTT 3
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇨🇳 新北Hinet-dip
-      - 🇭🇰 @hkaa0||香港
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - Yongin-Moack-dip
-      - 🇨🇦 Toronto-DigitalOcean
-      - 🇩🇪 vip1 德国-03-SS
-      - 🇨🇳 vip1 台湾-08-SS
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
-      - 🇺🇸 _US_美国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇨🇳 新北Hinet-dip 2
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇨🇳 新北Hinet-dip 3
-      - 🇳🇱 Netherlands 10 @nodpai
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇦🇺 vip1 澳大利亚-02-SS
-      - 🇺🇸 United States 02 @nodpai
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 @hkaa0||美国 2
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇨🇳 JCBB_ 台湾 01_1【vip1】
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9
-      - 🇭🇰 香港HKT-dip 5
-      - ""
-      - 🇭🇰 _HK_香港
-      - 🇬🇧 英国_Telegram@kxswa 2
-      - 🇨🇳 台北Hinet-dip
-      - 🇭🇰 vip1 香港-15-SS
-      - 🇭🇰 香港HKT-dip 6
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 欧盟 V2CROSS.COM 2
-      - 🇭🇰 香港B|@ripaojiedian
-      - 🇭🇰 香港HKT-dip 7
-      - 🇺🇸 _US_美国 2
+      - Hanoi-HOSTINGVIET 2
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇳🇱 Netherlands 02 @nodpai
+      - 🇻🇳 越南_Telegram@kxswa
+      - 🇳🇱 Netherlands 07 @nodpai
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇯🇵 Tokyo-NTT
       - 🇯🇵 日本KT|@ripaojiedian
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇭🇰 香港HKT-dip 4
+      - 🇯🇵 Tokyo-NTT 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇳🇱 Netherlands 08 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇨🇳 新北Hinet-dip 2
+      - Miami-Cogent-dip
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇯🇵 日本_Telegram@kxswa
+      - Yongin-Moack-dip
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇨🇳 github.com/freefq - 上海市电信 20
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇱🇺 卢森堡|频道:@ripaojiedian
+      - 🇻🇳 vip1 越南-02-SS
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇯🇵 vip1 日本-01-SS
+      - 🇸🇬 新加坡_Telegram@kxswa
       - 🇫🇷 Paris-Dyjix-dip
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇷🇺 St Petersburg-Selectel
-      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
-      - 🇯🇵 github.com/freefq - 日本  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇨🇳 China 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 13
+      - 🇨🇳 新北Hinet-dip 3
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - Miami-Cogent-dip 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇻🇳 越南_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 14
       - 🇨🇳 新北Hinet-dip 4
-      - 🇫🇷 Paris-Dyjix-dip 2
-      - 🇺🇸 United States 28 @nodpai
-      - 🇨🇳 新北Hinet-dip 5
-      - 🇺🇸 JCBB_ 美国 03【vip1】
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇯🇵 Tokyo-NTT 4
-      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
+      - 🇭🇰 香港HKT-dip 5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国_Telegram@kxswa
-      - Amsterdam-DigitalOcean
-      - 🇨🇳 上海市 电信
-      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
-      - 🇭🇰 JCBB_香港10【vip1】
-      - 🇭🇰 香港HKT-dip
+      - 🇨🇦 Toronto-DigitalOcean
+      - 🇨🇦 Toronto-DigitalOcean 2
+      - 🇨🇳 新北Hinet-dip
+      - 🇻🇳 _VN_越南
+      - 🇸🇬 Singapore-Contabo
+      - 🇺🇸 _ES_西班牙->🇺🇸_US_美国
       - 🇺🇸 @hkaa0||美国
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇸🇬 vip1 新加坡-08-SS
+      - 🇨🇳 vip1 台湾-07-SS
+      - 🇻🇳 _VN_越南 2
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇭🇰 JCBB_香港03_1【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇭🇰 香港HKT-dip
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇺🇸 美国_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇭🇰 vip1 香港-01-SS
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 United States 14 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇳🇱 @hkaa0||荷兰
-      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 United States 08 @nodpai
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇮🇳 JCBB_ 印度02【vip1】
       - 🇭🇰 香港HKT-dip 2
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - github.com/freefq - 欧盟  38
       - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇯🇵 Tokyo-NTT
+      - Hanoi-HOSTINGVIET
       - 🇺🇸 美国_Telegram@kxswa 6
       - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇺🇸 United States 31 @nodpai
-      - 🇸🇬 Singapore-Contabo
-      - 🇺🇸 美国_Telegram@kxswa 9
       - 🇭🇰 香港HKT-dip 3
-      - 🇭🇰 香港HKT-dip 4
-      - 🇺🇸 United States 32 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
-      - 🇯🇵 Tokyo-NTT 2
-      - 🇯🇵 Tokyo-NTT 3
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇨🇳 新北Hinet-dip
-      - 🇭🇰 @hkaa0||香港
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - Yongin-Moack-dip
-      - 🇨🇦 Toronto-DigitalOcean
-      - 🇩🇪 vip1 德国-03-SS
-      - 🇨🇳 vip1 台湾-08-SS
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
-      - 🇺🇸 _US_美国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇨🇳 新北Hinet-dip 2
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇨🇳 新北Hinet-dip 3
-      - 🇳🇱 Netherlands 10 @nodpai
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇦🇺 vip1 澳大利亚-02-SS
-      - 🇺🇸 United States 02 @nodpai
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 @hkaa0||美国 2
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇨🇳 JCBB_ 台湾 01_1【vip1】
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9
-      - 🇭🇰 香港HKT-dip 5
-      - ""
-      - 🇭🇰 _HK_香港
-      - 🇬🇧 英国_Telegram@kxswa 2
-      - 🇨🇳 台北Hinet-dip
-      - 🇭🇰 vip1 香港-15-SS
-      - 🇭🇰 香港HKT-dip 6
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 欧盟 V2CROSS.COM 2
-      - 🇭🇰 香港B|@ripaojiedian
-      - 🇭🇰 香港HKT-dip 7
-      - 🇺🇸 _US_美国 2
+      - Hanoi-HOSTINGVIET 2
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇳🇱 Netherlands 02 @nodpai
+      - 🇻🇳 越南_Telegram@kxswa
+      - 🇳🇱 Netherlands 07 @nodpai
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇯🇵 Tokyo-NTT
       - 🇯🇵 日本KT|@ripaojiedian
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇭🇰 香港HKT-dip 4
+      - 🇯🇵 Tokyo-NTT 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇳🇱 Netherlands 08 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇨🇳 新北Hinet-dip 2
+      - Miami-Cogent-dip
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇯🇵 日本_Telegram@kxswa
+      - Yongin-Moack-dip
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇨🇳 github.com/freefq - 上海市电信 20
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇱🇺 卢森堡|频道:@ripaojiedian
+      - 🇻🇳 vip1 越南-02-SS
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇯🇵 vip1 日本-01-SS
+      - 🇸🇬 新加坡_Telegram@kxswa
       - 🇫🇷 Paris-Dyjix-dip
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇷🇺 St Petersburg-Selectel
-      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
-      - 🇯🇵 github.com/freefq - 日本  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇨🇳 China 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 13
+      - 🇨🇳 新北Hinet-dip 3
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - Miami-Cogent-dip 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇻🇳 越南_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 14
       - 🇨🇳 新北Hinet-dip 4
-      - 🇫🇷 Paris-Dyjix-dip 2
-      - 🇺🇸 United States 28 @nodpai
-      - 🇨🇳 新北Hinet-dip 5
-      - 🇺🇸 JCBB_ 美国 03【vip1】
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇯🇵 Tokyo-NTT 4
-      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
+      - 🇭🇰 香港HKT-dip 5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国_Telegram@kxswa
-      - Amsterdam-DigitalOcean
-      - 🇨🇳 上海市 电信
-      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
-      - 🇭🇰 JCBB_香港10【vip1】
-      - 🇭🇰 香港HKT-dip
+      - 🇨🇦 Toronto-DigitalOcean
+      - 🇨🇦 Toronto-DigitalOcean 2
+      - 🇨🇳 新北Hinet-dip
+      - 🇻🇳 _VN_越南
+      - 🇸🇬 Singapore-Contabo
+      - 🇺🇸 _ES_西班牙->🇺🇸_US_美国
       - 🇺🇸 @hkaa0||美国
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇸🇬 vip1 新加坡-08-SS
+      - 🇨🇳 vip1 台湾-07-SS
+      - 🇻🇳 _VN_越南 2
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇭🇰 JCBB_香港03_1【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇭🇰 香港HKT-dip
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇺🇸 美国_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇭🇰 vip1 香港-01-SS
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 United States 14 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇳🇱 @hkaa0||荷兰
-      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 United States 08 @nodpai
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇮🇳 JCBB_ 印度02【vip1】
       - 🇭🇰 香港HKT-dip 2
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - github.com/freefq - 欧盟  38
       - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇯🇵 Tokyo-NTT
+      - Hanoi-HOSTINGVIET
       - 🇺🇸 美国_Telegram@kxswa 6
       - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇺🇸 United States 31 @nodpai
-      - 🇸🇬 Singapore-Contabo
-      - 🇺🇸 美国_Telegram@kxswa 9
       - 🇭🇰 香港HKT-dip 3
-      - 🇭🇰 香港HKT-dip 4
-      - 🇺🇸 United States 32 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
-      - 🇯🇵 Tokyo-NTT 2
-      - 🇯🇵 Tokyo-NTT 3
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇨🇳 新北Hinet-dip
-      - 🇭🇰 @hkaa0||香港
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - Yongin-Moack-dip
-      - 🇨🇦 Toronto-DigitalOcean
-      - 🇩🇪 vip1 德国-03-SS
-      - 🇨🇳 vip1 台湾-08-SS
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
-      - 🇺🇸 _US_美国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇨🇳 新北Hinet-dip 2
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇨🇳 新北Hinet-dip 3
-      - 🇳🇱 Netherlands 10 @nodpai
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇦🇺 vip1 澳大利亚-02-SS
-      - 🇺🇸 United States 02 @nodpai
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 @hkaa0||美国 2
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇨🇳 JCBB_ 台湾 01_1【vip1】
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9
-      - 🇭🇰 香港HKT-dip 5
-      - ""
-      - 🇭🇰 _HK_香港
-      - 🇬🇧 英国_Telegram@kxswa 2
-      - 🇨🇳 台北Hinet-dip
-      - 🇭🇰 vip1 香港-15-SS
-      - 🇭🇰 香港HKT-dip 6
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 欧盟 V2CROSS.COM 2
-      - 🇭🇰 香港B|@ripaojiedian
-      - 🇭🇰 香港HKT-dip 7
-      - 🇺🇸 _US_美国 2
+      - Hanoi-HOSTINGVIET 2
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇳🇱 Netherlands 02 @nodpai
+      - 🇻🇳 越南_Telegram@kxswa
+      - 🇳🇱 Netherlands 07 @nodpai
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇯🇵 Tokyo-NTT
       - 🇯🇵 日本KT|@ripaojiedian
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇭🇰 香港HKT-dip 4
+      - 🇯🇵 Tokyo-NTT 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇳🇱 Netherlands 08 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇨🇳 新北Hinet-dip 2
+      - Miami-Cogent-dip
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇯🇵 日本_Telegram@kxswa
+      - Yongin-Moack-dip
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇨🇳 github.com/freefq - 上海市电信 20
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇱🇺 卢森堡|频道:@ripaojiedian
+      - 🇻🇳 vip1 越南-02-SS
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇯🇵 vip1 日本-01-SS
+      - 🇸🇬 新加坡_Telegram@kxswa
       - 🇫🇷 Paris-Dyjix-dip
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇷🇺 St Petersburg-Selectel
-      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
-      - 🇯🇵 github.com/freefq - 日本  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇨🇳 China 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 13
+      - 🇨🇳 新北Hinet-dip 3
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - Miami-Cogent-dip 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇻🇳 越南_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 14
       - 🇨🇳 新北Hinet-dip 4
-      - 🇫🇷 Paris-Dyjix-dip 2
-      - 🇺🇸 United States 28 @nodpai
-      - 🇨🇳 新北Hinet-dip 5
-      - 🇺🇸 JCBB_ 美国 03【vip1】
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇯🇵 Tokyo-NTT 4
-      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
+      - 🇭🇰 香港HKT-dip 5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -382,91 +370,88 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 欧盟 V2CROSS.COM
-      - 🇺🇸 美国_Telegram@kxswa
-      - Amsterdam-DigitalOcean
-      - 🇨🇳 上海市 电信
-      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
-      - 🇭🇰 JCBB_香港10【vip1】
-      - 🇭🇰 香港HKT-dip
+      - 🇨🇦 Toronto-DigitalOcean
+      - 🇨🇦 Toronto-DigitalOcean 2
+      - 🇨🇳 新北Hinet-dip
+      - 🇻🇳 _VN_越南
+      - 🇸🇬 Singapore-Contabo
+      - 🇺🇸 _ES_西班牙->🇺🇸_US_美国
       - 🇺🇸 @hkaa0||美国
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇸🇬 vip1 新加坡-08-SS
+      - 🇨🇳 vip1 台湾-07-SS
+      - 🇻🇳 _VN_越南 2
+      - 🇷🇺 俄罗斯|@ripaojiedian
+      - 🇭🇰 JCBB_香港03_1【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇭🇰 香港HKT-dip
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇺🇸 美国_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇭🇰 vip1 香港-01-SS
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 United States 14 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇳🇱 @hkaa0||荷兰
-      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 United States 08 @nodpai
+      - 🇯🇵 _JP_日本
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇮🇳 JCBB_ 印度02【vip1】
       - 🇭🇰 香港HKT-dip 2
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - github.com/freefq - 欧盟  38
       - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇯🇵 Tokyo-NTT
+      - Hanoi-HOSTINGVIET
       - 🇺🇸 美国_Telegram@kxswa 6
       - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇬🇧 英国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇺🇸 United States 31 @nodpai
-      - 🇸🇬 Singapore-Contabo
-      - 🇺🇸 美国_Telegram@kxswa 9
       - 🇭🇰 香港HKT-dip 3
-      - 🇭🇰 香港HKT-dip 4
-      - 🇺🇸 United States 32 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
-      - 🇯🇵 Tokyo-NTT 2
-      - 🇯🇵 Tokyo-NTT 3
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇨🇳 新北Hinet-dip
-      - 🇭🇰 @hkaa0||香港
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - Yongin-Moack-dip
-      - 🇨🇦 Toronto-DigitalOcean
-      - 🇩🇪 vip1 德国-03-SS
-      - 🇨🇳 vip1 台湾-08-SS
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
-      - 🇺🇸 _US_美国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇨🇳 新北Hinet-dip 2
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇨🇳 新北Hinet-dip 3
-      - 🇳🇱 Netherlands 10 @nodpai
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇦🇺 vip1 澳大利亚-02-SS
-      - 🇺🇸 United States 02 @nodpai
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 @hkaa0||美国 2
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇨🇳 JCBB_ 台湾 01_1【vip1】
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9
-      - 🇭🇰 香港HKT-dip 5
-      - ""
-      - 🇭🇰 _HK_香港
-      - 🇬🇧 英国_Telegram@kxswa 2
-      - 🇨🇳 台北Hinet-dip
-      - 🇭🇰 vip1 香港-15-SS
-      - 🇭🇰 香港HKT-dip 6
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 欧盟 V2CROSS.COM 2
-      - 🇭🇰 香港B|@ripaojiedian
-      - 🇭🇰 香港HKT-dip 7
-      - 🇺🇸 _US_美国 2
+      - Hanoi-HOSTINGVIET 2
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇳🇱 Netherlands 02 @nodpai
+      - 🇻🇳 越南_Telegram@kxswa
+      - 🇳🇱 Netherlands 07 @nodpai
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇯🇵 Tokyo-NTT
       - 🇯🇵 日本KT|@ripaojiedian
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇭🇰 香港HKT-dip 4
+      - 🇯🇵 Tokyo-NTT 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇳🇱 Netherlands 08 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇨🇳 新北Hinet-dip 2
+      - Miami-Cogent-dip
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai
+      - 🇯🇵 日本_Telegram@kxswa
+      - Yongin-Moack-dip
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇨🇳 github.com/freefq - 上海市电信 20
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇱🇺 卢森堡|频道:@ripaojiedian
+      - 🇻🇳 vip1 越南-02-SS
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇯🇵 vip1 日本-01-SS
+      - 🇸🇬 新加坡_Telegram@kxswa
       - 🇫🇷 Paris-Dyjix-dip
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇷🇺 St Petersburg-Selectel
-      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
-      - 🇯🇵 github.com/freefq - 日本  28
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇨🇳 China 04 @nodpai
+      - 🇺🇸 美国_Telegram@kxswa 13
+      - 🇨🇳 新北Hinet-dip 3
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - Miami-Cogent-dip 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - 🇻🇳 越南_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 14
       - 🇨🇳 新北Hinet-dip 4
-      - 🇫🇷 Paris-Dyjix-dip 2
-      - 🇺🇸 United States 28 @nodpai
-      - 🇨🇳 新北Hinet-dip 5
-      - 🇺🇸 JCBB_ 美国 03【vip1】
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇯🇵 Tokyo-NTT 4
-      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
+      - 🇭🇰 香港HKT-dip 5
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
   - name: 📲 电报消息
     type: select
     proxies:
@@ -653,70 +638,63 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港03_1【vip1】
       - 🇭🇰 香港HKT-dip
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 vip1 香港-01-SS
       - 🇭🇰 香港HKT-dip 2
-      - 🇭🇰 香港_Telegram@kxswa 2
       - 🇭🇰 香港HKT-dip 3
       - 🇭🇰 香港HKT-dip 4
-      - 🇭🇰 @hkaa0||香港
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 香港_Telegram@kxswa 2
       - 🇭🇰 香港HKT-dip 5
-      - 🇭🇰 _HK_香港
-      - 🇭🇰 vip1 香港-15-SS
-      - 🇭🇰 香港HKT-dip 6
-      - 🇭🇰 香港KT|@ripaojiedian
-      - 🇭🇰 香港B|@ripaojiedian
-      - 🇭🇰 香港HKT-dip 7
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 4
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 _JP_日本
       - 🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
-      - 🇯🇵 github.com/freefq - 日本  28
+      - 🇯🇵 日本_Telegram@kxswa
+      - 🇯🇵 vip1 日本-01-SS
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国_Telegram@kxswa
+      - 🇺🇸 _ES_西班牙->🇺🇸_US_美国
       - 🇺🇸 @hkaa0||美国
+      - 🇺🇸 美国_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 United States 14 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 United States 08 @nodpai
+      - 🇺🇸 @hkaa0||美国 2
       - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
       - 🇺🇸 美国_Telegram@kxswa 5
       - 🇺🇸 美国_Telegram@kxswa 6
       - 🇺🇸 美国_Telegram@kxswa 7
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 United States 31 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 United States 32 @nodpai
       - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 _US_美国
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
       - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 United States 02 @nodpai
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
       - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
       - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 9
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇺🇸 United States 28 @nodpai
-      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 4
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -724,29 +702,28 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 vip1 台湾-08-SS
+      - 🇨🇳 vip1 台湾-07-SS
       - 🇨🇳 新北Hinet-dip 2
+      - 🇨🇳 中转 🇹🇼 Taiwan 03 @nodpai
       - 🇨🇳 新北Hinet-dip 3
-      - 🇨🇳 JCBB_ 台湾 01_1【vip1】
-      - 🇨🇳 台北Hinet-dip
       - 🇨🇳 新北Hinet-dip 4
-      - 🇨🇳 新北Hinet-dip 5
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
-      - 🇸🇬 vip1 新加坡-08-SS
       - 🇸🇬 Singapore-Contabo
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇸🇬 新加坡_Telegram@kxswa
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
     proxies:
