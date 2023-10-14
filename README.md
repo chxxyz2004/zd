@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2023-10-14 09:11:12`
+Updata：`2023-10-14 11:19:51`
 
 
 <details>
@@ -21337,30 +21337,17 @@ Updata：`2023-10-14 09:11:12`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=84047a2a0cdb163fb0e500f9c5e04157`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=84047a2a0cdb163fb0e500f9c5e04157`
+`https://oss.v2rayse.com/proxies/data/2023-10-14/uz5CKVS.txt`
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7f5097ce685f49226bbb54db1314cc84`
-
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7f5097ce685f49226bbb54db1314cc84`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=910dfd18bde6ea26173c4af9ae82da31`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=910dfd18bde6ea26173c4af9ae82da31`
 
 
 
@@ -21368,7 +21355,28 @@ Updata：`2023-10-14 09:11:12`
 `https://oss.v2rayse.com/proxies/data/2023-10-14/uz5CKVS.txt`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2023-10-14/uz5CKVS.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3dfeea4c9d323e4243778e338c4c2a96`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3dfeea4c9d323e4243778e338c4c2a96`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=227782e2371e1e4abeecf5946e884425`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=227782e2371e1e4abeecf5946e884425`
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=2330b85f086eb0eb07b2790ec0d6d6e3`
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=2330b85f086eb0eb07b2790ec0d6d6e3`
 
 
 
