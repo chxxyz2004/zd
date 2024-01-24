@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-01-24 23:23:10`
+Updata：`2024-01-25 02:25:11`
 
 
 <details>
@@ -28778,30 +28778,17 @@ Updata：`2024-01-24 23:23:10`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=43f0a9d2a2d95700a68d0dc07a68ae8a`
+
+
+
+
 
 
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=43f0a9d2a2d95700a68d0dc07a68ae8a`
+`https://oss.v2rayse.com/proxies/data/2024-01-24/h2kUaCG.txt`
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=598d7d7708c8e3e6f0004520475c0090`
-
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=598d7d7708c8e3e6f0004520475c0090`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=375ff23f280c6b562be99f0d07b3f783`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=375ff23f280c6b562be99f0d07b3f783`
 
 
 
@@ -28809,7 +28796,28 @@ Updata：`2024-01-24 23:23:10`
 `https://oss.v2rayse.com/proxies/data/2024-01-24/h2kUaCG.txt`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-01-24/h2kUaCG.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=86ff5e56bf0b668cbc87abfad095c441`
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=86ff5e56bf0b668cbc87abfad095c441`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=e09f74a0a608decd463135905a327928`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=e09f74a0a608decd463135905a327928`
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4e54f361e6c32db923bc84b8f3b01bfe`
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=4e54f361e6c32db923bc84b8f3b01bfe`
 
 
 
