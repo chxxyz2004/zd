@@ -5,127 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 距离下次重置剩余：15 天, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇰🇷 vip1 韩国-01, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇰🇷 vip1 韩国-02, server: shcm002.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇰🇷 vip1 韩国-03, server: gdct003.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-01, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-02, server: gdct003.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-03, server: shcm002.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-06, server: gdct001.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-07, server: gdct003.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇯🇵 vip1 日本-08, server: shcm002.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-01, server: gdct001.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-02, server: gdct003.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-03, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-07, server: gdct001.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-08, server: gdct003.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-09, server: shcm002.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-13, server: gdct001.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-14, server: gdct003.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-15, server: shcm002.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-19, server: gdct001.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-20, server: gdct003.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇭🇰 vip1 香港-21, server: shcm002.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-01, server: gdct001.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-02, server: gdct003.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-03, server: shcm002.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-06, server: gdct001.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-07, server: gdct003.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇨🇳 vip1 台湾-08, server: shcm002.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gdct001.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gdct003.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-03, server: shcm002.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gdct001.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-07, server: gdct003.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇸🇬 vip1 新加坡-08, server: shcm002.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇲🇾 vip1 马来西亚-01, server: gdct001.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇲🇾 vip1 马来西亚-02, server: gdct003.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇲🇾 vip1 马来西亚-03, server: shcm002.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-01, server: gdct001.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-02, server: gdct003.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-03, server: shcm002.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-06, server: gdct001.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-07, server: gdct003.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-08, server: shcm002.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-11, server: gdct001.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-12, server: gdct003.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇺🇸 vip1 美国-13, server: shcm002.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇻🇳 vip1 越南-01, server: gdct001.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇻🇳 vip1 越南-02, server: gdct003.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇻🇳 vip1 越南-03, server: shcm002.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇮🇳 vip1 印度-01, server: gdct001.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇮🇳 vip1 印度-02, server: gdct003.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇮🇳 vip1 印度-03, server: shcm002.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gdct001.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: gdct003.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇦🇺 vip1 澳大利亚-03, server: shcm002.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇹🇷 vip1 土耳其-01, server: gdct001.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇹🇷 vip1 土耳其-02, server: gdct003.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇹🇷 vip1 土耳其-03, server: shcm002.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇩🇪 vip1 德国-01, server: gdct001.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇩🇪 vip1 德国-02, server: gdct003.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇩🇪 vip1 德国-03, server: shcm002.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇬🇧 vip1 英国-01, server: gdct001.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇬🇧 vip1 英国-02, server: gdct003.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 🇬🇧 vip1 英国-03, server: shcm002.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 6890ede9-91e2-4de9-813d-cde2b18e0ef5}
-  - {name: 距离下次重置剩余：15 天 2, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: gdct003.jcnode.top, skip-cert-verify: true}
-  - {name: JCBB大陆永久跳转地址 https://jcbb.cc, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: gdct003.jcnode.top, skip-cert-verify: true}
-  - {name: 国外永久跳转域名 https://jcbbs.shop, server: gdct001.theyydsnode.top, port: 16343, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 01【vip1 】, server: shcm002.theyydsnode.top, port: 51031, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 02【vip1 】, server: gdct001.theyydsnode.top, port: 51031, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 03【vip1 】, server: gdct003.theyydsnode.top, port: 51031, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 04【vip1 】, server: gdct003.theyydsnode.top, port: 58464, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 05【vip1】, server: shcm002.theyydsnode.top, port: 58464, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1】, server: gdct001.theyydsnode.top, port: 58464, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: sg03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港01【vip1】, server: shcm002.theyydsnode.top, port: 25974, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港02【vip1】, server: gdct001.theyydsnode.top, port: 25974, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港03【vip1】, server: gdct003.theyydsnode.top, port: 25974, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港04【vip1】, server: gdct003.theyydsnode.top, port: 35257, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港05【vip1】, server: gdct001.theyydsnode.top, port: 35257, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港06【vip1】, server: gdct002.theyydsnode.top, port: 35257, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港 07【vip1】, server: gdct003.theyydsnode.top, port: 26023, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港 08【vip1】, server: shcm002.theyydsnode.top, port: 26023, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港 09【vip1】, server: gdct001.theyydsnode.top, port: 26023, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港10【vip1】, server: gdct003.theyydsnode.top, port: 15485, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港12【vip1】, server: shcm002.theyydsnode.top, port: 15485, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 JCBB_香港13【vip1】, server: gdct001.theyydsnode.top, port: 15485, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本01【vip1】, server: shcm002.theyydsnode.top, port: 10327, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本02【vip1】, server: gdct001.theyydsnode.top, port: 10327, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本03【vip1】, server: gdct003.theyydsnode.top, port: 10327, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本04【vip1】, server: shcm002.theyydsnode.top, port: 16483, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本05【vip1】, server: gdct001.theyydsnode.top, port: 16483, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 JCBB_日本06【vip1】, server: gdct003.theyydsnode.top, port: 16483, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 01【vip1】, server: gdct001.theyydsnode.top, port: 64850, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 02【vip1】, server: gdct003.theyydsnode.top, port: 64850, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 03【vip1】, server: shcm002.theyydsnode.top, port: 64850, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 04【vip1】, server: shcm002.theyydsnode.top, port: 47557, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 05【vip1】, server: gdct001.theyydsnode.top, port: 47557, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 JCBB_ 台湾 06【vip1】, server: gdct003.theyydsnode.top, port: 47557, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 JCBB_越南 01【vip1】, server: gdct003.theyydsnode.top, port: 16343, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 JCBB_越南 02【vip1】, server: shcm002.theyydsnode.top, port: 16343, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 JCBB_越南 03【vip1】, server: gdct001.theyydsnode.top, port: 16343, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 JCBB_ 印度01【vip1】, server: shcm002.theyydsnode.top, port: 26094, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 JCBB_ 印度02【vip1】, server: gdct001.theyydsnode.top, port: 26094, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 JCBB_ 印度03【vip1】, server: gdct003.theyydsnode.top, port: 26094, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 JCBB_ 英国01【vip1】, server: shcm002.theyydsnode.top, port: 42840, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 JCBB_ 英国02【vip1】, server: gdct001.theyydsnode.top, port: 42840, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 JCBB_ 英国03【vip1】, server: gdct003.theyydsnode.top, port: 42840, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 JCBB_德国01【vip1】, server: gdct003.theyydsnode.top, port: 53279, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 JCBB_德国02【vip1】, server: shcm002.theyydsnode.top, port: 53279, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 JCBB_德国03【vip1】, server: gdct001.theyydsnode.top, port: 53279, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 JCBB_土耳其 01【vip1】, server: gdct001.theyydsnode.top, port: 60293, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 JCBB_土耳其 02【vip1】, server: gdct003.theyydsnode.top, port: 60293, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 JCBB_土耳其 03【vip1】, server: shcm002.theyydsnode.top, port: 60293, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国01【vip1】, server: gdct001.theyydsnode.top, port: 48560, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国02【vip1】, server: gdct003.theyydsnode.top, port: 48560, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国02_1【vip1】, server: shcm002.theyydsnode.top, port: 48560, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国 03【vip1】, server: shcm002.theyydsnode.top, port: 10658, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国 04【vip1】, server: gdct003.theyydsnode.top, port: 10658, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_ 美国 04_1【vip1】, server: gdct001.theyydsnode.top, port: 10658, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_美国05_1【vip1】, server: shcm002.theyydsnode.top, port: 26681, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_美国05【vip1】, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 JCBB_美国06【vip1】, server: gdct001.theyydsnode.top, port: 26681, type: trojan, password: b5d76b2c-c9db-4c1a-9fe1-ecfa4696f9ab, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 距离下次重置剩余：15 天, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇰🇷 vip1 韩国-01, server: gdct001.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇰🇷 vip1 韩国-02, server: shcm002.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇰🇷 vip1 韩国-03, server: gdct003.theyydsnode.top, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-01, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-02, server: gdct003.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-03, server: shcm002.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-06, server: gdct001.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-07, server: gdct003.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇯🇵 vip1 日本-08, server: shcm002.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-01, server: gdct001.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-02, server: gdct003.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-03, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-07, server: gdct001.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-08, server: gdct003.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-09, server: shcm002.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-13, server: gdct001.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-14, server: gdct003.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-15, server: shcm002.theyydsnode.top, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-19, server: gdct001.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-20, server: gdct003.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇭🇰 vip1 香港-21, server: shcm002.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-01, server: gdct001.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-02, server: gdct003.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-03, server: shcm002.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-06, server: gdct001.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-07, server: gdct003.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇨🇳 vip1 台湾-08, server: shcm002.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gdct001.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gdct003.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-03, server: shcm002.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gdct001.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-07, server: gdct003.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇸🇬 vip1 新加坡-08, server: shcm002.theyydsnode.top, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇲🇾 vip1 马来西亚-01, server: gdct001.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇲🇾 vip1 马来西亚-02, server: gdct003.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇲🇾 vip1 马来西亚-03, server: shcm002.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-01, server: gdct001.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-02, server: gdct003.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-03, server: shcm002.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-06, server: gdct001.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-07, server: gdct003.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-08, server: shcm002.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-11, server: gdct001.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-12, server: gdct003.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇺🇸 vip1 美国-13, server: shcm002.theyydsnode.top, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇻🇳 vip1 越南-01, server: gdct001.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇻🇳 vip1 越南-02, server: gdct003.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇻🇳 vip1 越南-03, server: shcm002.theyydsnode.top, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇮🇳 vip1 印度-01, server: gdct001.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇮🇳 vip1 印度-02, server: gdct003.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇮🇳 vip1 印度-03, server: shcm002.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gdct001.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: gdct003.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: shcm002.theyydsnode.top, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇹🇷 vip1 土耳其-01, server: gdct001.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇹🇷 vip1 土耳其-02, server: gdct003.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇹🇷 vip1 土耳其-03, server: shcm002.theyydsnode.top, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇩🇪 vip1 德国-01, server: gdct001.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇩🇪 vip1 德国-02, server: gdct003.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇩🇪 vip1 德国-03, server: shcm002.theyydsnode.top, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇬🇧 vip1 英国-01, server: gdct001.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇬🇧 vip1 英国-02, server: gdct003.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 🇬🇧 vip1 英国-03, server: shcm002.theyydsnode.top, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: a94e58aa-5388-43a2-8e7e-d5a89d473c28}
+  - {name: 距离下次重置剩余：15 天 2, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: gdct003.jcnode.top, skip-cert-verify: true}
+  - {name: JCBB大陆永久跳转地址 https://jcbb.cc, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: gdct003.jcnode.top, skip-cert-verify: true}
+  - {name: 国外永久跳转域名 https://jcbbs.shop, server: gdct001.theyydsnode.top, port: 16343, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 01【vip1 】, server: shcm002.theyydsnode.top, port: 51031, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 02【vip1 】, server: gdct001.theyydsnode.top, port: 51031, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 03【vip1 】, server: gdct003.theyydsnode.top, port: 51031, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 04【vip1 】, server: gdct003.theyydsnode.top, port: 58464, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 05【vip1】, server: shcm002.theyydsnode.top, port: 58464, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1】, server: gdct001.theyydsnode.top, port: 58464, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: sg03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港01【vip1】, server: shcm002.theyydsnode.top, port: 25974, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港02【vip1】, server: gdct001.theyydsnode.top, port: 25974, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港03【vip1】, server: gdct003.theyydsnode.top, port: 25974, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港04【vip1】, server: gdct003.theyydsnode.top, port: 35257, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港05【vip1】, server: gdct001.theyydsnode.top, port: 35257, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港06【vip1】, server: gdct002.theyydsnode.top, port: 35257, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 07【vip1】, server: gdct003.theyydsnode.top, port: 26023, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 08【vip1】, server: shcm002.theyydsnode.top, port: 26023, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 09【vip1】, server: gdct001.theyydsnode.top, port: 26023, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港10【vip1】, server: gdct003.theyydsnode.top, port: 15485, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港12【vip1】, server: shcm002.theyydsnode.top, port: 15485, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港13【vip1】, server: gdct001.theyydsnode.top, port: 15485, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本01【vip1】, server: shcm002.theyydsnode.top, port: 10327, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本02【vip1】, server: gdct001.theyydsnode.top, port: 10327, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本03【vip1】, server: gdct003.theyydsnode.top, port: 10327, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本04【vip1】, server: shcm002.theyydsnode.top, port: 16483, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本05【vip1】, server: gdct001.theyydsnode.top, port: 16483, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本06【vip1】, server: gdct003.theyydsnode.top, port: 16483, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 01【vip1】, server: gdct001.theyydsnode.top, port: 64850, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 02【vip1】, server: gdct003.theyydsnode.top, port: 64850, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 03【vip1】, server: shcm002.theyydsnode.top, port: 64850, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 04【vip1】, server: shcm002.theyydsnode.top, port: 47557, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 05【vip1】, server: gdct001.theyydsnode.top, port: 47557, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 06【vip1】, server: gdct003.theyydsnode.top, port: 47557, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 01【vip1】, server: gdct003.theyydsnode.top, port: 16343, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 02【vip1】, server: shcm002.theyydsnode.top, port: 16343, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 03【vip1】, server: gdct001.theyydsnode.top, port: 16343, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度01【vip1】, server: shcm002.theyydsnode.top, port: 26094, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度02【vip1】, server: gdct001.theyydsnode.top, port: 26094, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度03【vip1】, server: gdct003.theyydsnode.top, port: 26094, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国01【vip1】, server: shcm002.theyydsnode.top, port: 42840, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国02【vip1】, server: gdct001.theyydsnode.top, port: 42840, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国03【vip1】, server: gdct003.theyydsnode.top, port: 42840, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国01【vip1】, server: gdct003.theyydsnode.top, port: 53279, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国02【vip1】, server: shcm002.theyydsnode.top, port: 53279, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国03【vip1】, server: gdct001.theyydsnode.top, port: 53279, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 01【vip1】, server: gdct001.theyydsnode.top, port: 60293, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 02【vip1】, server: gdct003.theyydsnode.top, port: 60293, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 03【vip1】, server: shcm002.theyydsnode.top, port: 60293, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国01【vip1】, server: gdct001.theyydsnode.top, port: 48560, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国02【vip1】, server: gdct003.theyydsnode.top, port: 48560, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国02_1【vip1】, server: shcm002.theyydsnode.top, port: 48560, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 03【vip1】, server: shcm002.theyydsnode.top, port: 10658, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 04【vip1】, server: gdct003.theyydsnode.top, port: 10658, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 04_1【vip1】, server: gdct001.theyydsnode.top, port: 10658, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国05_1【vip1】, server: shcm002.theyydsnode.top, port: 26681, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国05【vip1】, server: gdct003.theyydsnode.top, port: 26681, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国06【vip1】, server: gdct001.theyydsnode.top, port: 26681, type: trojan, password: a7dffcd5-17d2-4d9d-bc14-ac59b003b5aa, sni: us04.ckcloud.info, skip-cert-verify: true}
   - {name: 🇺🇦 _CN_中国->🇺🇦_UA_乌克兰, server: xibaozi.19890604.day, port: 10845, type: trojan, password: 9f5dbe91-ead9-41c5-84f5-f495882ef80f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
   - {name: 🇨🇿 _CN_中国->🇨🇿_CZ_捷克, server: xibaozi.19890604.day, port: 10846, type: trojan, password: 9f5dbe91-ead9-41c5-84f5-f495882ef80f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
   - {name: 🇦🇹 _CN_中国->🇦🇹_AT_奥地利, server: xibaozi.19890604.day, port: 10848, type: trojan, password: 9f5dbe91-ead9-41c5-84f5-f495882ef80f, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true}
