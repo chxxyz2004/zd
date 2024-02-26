@@ -104,70 +104,70 @@ proxies:
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: gdyd.xiaow.cc, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: b5d41e0b-0761-4c48-b696-8f882c3c2cd4}
   - {name: 🇨🇷 _CR_哥斯达黎加 6, server: 190.93.246.235, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 17, server: 141.101.114.228, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
-  - {name: 距离下次重置剩余：3 天, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇰🇷 vip1 韩国-01, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇰🇷 vip1 韩国-02, server: node000005.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇰🇷 vip1 韩国-03, server: node000003.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-01, server: node000001.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-02, server: node000003.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-03, server: node000005.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-06, server: node000001.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-07, server: node000003.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇯🇵 vip1 日本-08, server: node000005.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-01, server: node000001.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-02, server: node000003.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-03, server: node000005.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-07, server: node000001.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-08, server: node000003.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-09, server: node000005.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-13, server: node000001.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-14, server: node000003.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-15, server: node000005.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-19, server: node000001.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-20, server: node000003.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇭🇰 vip1 香港-21, server: node000005.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-01, server: node000001.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-02, server: node000003.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-03, server: node000005.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-06, server: node000001.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-07, server: node000003.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇨🇳 vip1 台湾-08, server: node000005.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-01, server: node000001.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-02, server: node000003.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-03, server: node000005.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-06, server: node000001.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-07, server: node000003.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇸🇬 vip1 新加坡-08, server: node000005.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇲🇾 vip1 马来西亚-01, server: node000001.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇲🇾 vip1 马来西亚-02, server: node000003.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇲🇾 vip1 马来西亚-03, server: node000005.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-01, server: node000001.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-02, server: node000003.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-03, server: node000005.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-06, server: node000001.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-07, server: node000003.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-08, server: node000005.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-11, server: node000001.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-12, server: node000003.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇺🇸 vip1 美国-13, server: node000005.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇻🇳 vip1 越南-01, server: node000001.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇻🇳 vip1 越南-02, server: node000003.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇻🇳 vip1 越南-03, server: node000005.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇮🇳 vip1 印度-01, server: node000001.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇮🇳 vip1 印度-02, server: node000003.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇮🇳 vip1 印度-03, server: node000005.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: node000001.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: node000003.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇦🇺 vip1 澳大利亚-03, server: node000005.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇹🇷 vip1 土耳其-01, server: node000001.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇹🇷 vip1 土耳其-02, server: node000003.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇹🇷 vip1 土耳其-03, server: node000005.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇩🇪 vip1 德国-01, server: node000001.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇩🇪 vip1 德国-02, server: node000003.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇩🇪 vip1 德国-03, server: node000005.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇬🇧 vip1 英国-01, server: node000001.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇬🇧 vip1 英国-02, server: node000003.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
-  - {name: 🇬🇧 vip1 英国-03, server: node000005.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: b995065a-64a9-41d6-8191-4ee0de8edf66}
+  - {name: 距离下次重置剩余：3 天, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇰🇷 vip1 韩国-01, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇰🇷 vip1 韩国-02, server: node000005.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇰🇷 vip1 韩国-03, server: node000003.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-01, server: node000001.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-02, server: node000003.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-03, server: node000005.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-06, server: node000001.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-07, server: node000003.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇯🇵 vip1 日本-08, server: node000005.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-01, server: node000001.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-02, server: node000003.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-03, server: node000005.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-07, server: node000001.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-08, server: node000003.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-09, server: node000005.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-13, server: node000001.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-14, server: node000003.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-15, server: node000005.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-19, server: node000001.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-20, server: node000003.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇭🇰 vip1 香港-21, server: node000005.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-01, server: node000001.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-02, server: node000003.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-03, server: node000005.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-06, server: node000001.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-07, server: node000003.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇨🇳 vip1 台湾-08, server: node000005.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-01, server: node000001.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-02, server: node000003.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-03, server: node000005.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-06, server: node000001.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-07, server: node000003.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇸🇬 vip1 新加坡-08, server: node000005.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇲🇾 vip1 马来西亚-01, server: node000001.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇲🇾 vip1 马来西亚-02, server: node000003.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇲🇾 vip1 马来西亚-03, server: node000005.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-01, server: node000001.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-02, server: node000003.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-03, server: node000005.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-06, server: node000001.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-07, server: node000003.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-08, server: node000005.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-11, server: node000001.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-12, server: node000003.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇺🇸 vip1 美国-13, server: node000005.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇻🇳 vip1 越南-01, server: node000001.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇻🇳 vip1 越南-02, server: node000003.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇻🇳 vip1 越南-03, server: node000005.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇮🇳 vip1 印度-01, server: node000001.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇮🇳 vip1 印度-02, server: node000003.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇮🇳 vip1 印度-03, server: node000005.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: node000001.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: node000003.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: node000005.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇹🇷 vip1 土耳其-01, server: node000001.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇹🇷 vip1 土耳其-02, server: node000003.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇹🇷 vip1 土耳其-03, server: node000005.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇩🇪 vip1 德国-01, server: node000001.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇩🇪 vip1 德国-02, server: node000003.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇩🇪 vip1 德国-03, server: node000005.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇬🇧 vip1 英国-01, server: node000001.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇬🇧 vip1 英国-02, server: node000003.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 🇬🇧 vip1 英国-03, server: node000005.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
