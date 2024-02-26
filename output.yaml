@@ -104,70 +104,127 @@ proxies:
   - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: gdyd.xiaow.cc, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: b5d41e0b-0761-4c48-b696-8f882c3c2cd4}
   - {name: 🇨🇷 _CR_哥斯达黎加 6, server: 190.93.246.235, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 17, server: 141.101.114.228, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}}
-  - {name: 距离下次重置剩余：3 天, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇰🇷 vip1 韩国-01, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇰🇷 vip1 韩国-02, server: node000005.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇰🇷 vip1 韩国-03, server: node000003.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-01, server: node000001.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-02, server: node000003.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-03, server: node000005.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-06, server: node000001.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-07, server: node000003.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇯🇵 vip1 日本-08, server: node000005.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-01, server: node000001.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-02, server: node000003.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-03, server: node000005.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-07, server: node000001.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-08, server: node000003.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-09, server: node000005.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-13, server: node000001.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-14, server: node000003.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-15, server: node000005.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-19, server: node000001.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-20, server: node000003.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇭🇰 vip1 香港-21, server: node000005.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-01, server: node000001.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-02, server: node000003.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-03, server: node000005.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-06, server: node000001.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-07, server: node000003.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇨🇳 vip1 台湾-08, server: node000005.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-01, server: node000001.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-02, server: node000003.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-03, server: node000005.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-06, server: node000001.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-07, server: node000003.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇸🇬 vip1 新加坡-08, server: node000005.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇲🇾 vip1 马来西亚-01, server: node000001.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇲🇾 vip1 马来西亚-02, server: node000003.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇲🇾 vip1 马来西亚-03, server: node000005.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-01, server: node000001.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-02, server: node000003.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-03, server: node000005.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-06, server: node000001.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-07, server: node000003.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-08, server: node000005.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-11, server: node000001.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-12, server: node000003.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇺🇸 vip1 美国-13, server: node000005.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇻🇳 vip1 越南-01, server: node000001.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇻🇳 vip1 越南-02, server: node000003.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇻🇳 vip1 越南-03, server: node000005.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇮🇳 vip1 印度-01, server: node000001.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇮🇳 vip1 印度-02, server: node000003.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇮🇳 vip1 印度-03, server: node000005.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: node000001.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: node000003.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇦🇺 vip1 澳大利亚-03, server: node000005.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇹🇷 vip1 土耳其-01, server: node000001.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇹🇷 vip1 土耳其-02, server: node000003.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇹🇷 vip1 土耳其-03, server: node000005.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇩🇪 vip1 德国-01, server: node000001.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇩🇪 vip1 德国-02, server: node000003.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇩🇪 vip1 德国-03, server: node000005.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇬🇧 vip1 英国-01, server: node000001.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇬🇧 vip1 英国-02, server: node000003.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
-  - {name: 🇬🇧 vip1 英国-03, server: node000005.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: c9269a48-ec3b-4736-93de-0eb6e3ed4e65}
+  - {name: 距离下次重置剩余：3 天, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇰🇷 vip1 韩国-01, server: node000001.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇰🇷 vip1 韩国-02, server: node000005.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇰🇷 vip1 韩国-03, server: node000003.likeone.lol, port: 14374, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-01, server: node000001.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-02, server: node000003.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-03, server: node000005.likeone.lol, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-06, server: node000001.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-07, server: node000003.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇯🇵 vip1 日本-08, server: node000005.likeone.lol, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-01, server: node000001.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-02, server: node000003.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-03, server: node000005.likeone.lol, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-07, server: node000001.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-08, server: node000003.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-09, server: node000005.likeone.lol, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-13, server: node000001.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-14, server: node000003.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-15, server: node000005.likeone.lol, port: 46912, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-19, server: node000001.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-20, server: node000003.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇭🇰 vip1 香港-21, server: node000005.likeone.lol, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-01, server: node000001.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-02, server: node000003.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-03, server: node000005.likeone.lol, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-06, server: node000001.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-07, server: node000003.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇨🇳 vip1 台湾-08, server: node000005.likeone.lol, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-01, server: node000001.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-02, server: node000003.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-03, server: node000005.likeone.lol, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-06, server: node000001.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-07, server: node000003.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇸🇬 vip1 新加坡-08, server: node000005.likeone.lol, port: 40276, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇲🇾 vip1 马来西亚-01, server: node000001.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇲🇾 vip1 马来西亚-02, server: node000003.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇲🇾 vip1 马来西亚-03, server: node000005.likeone.lol, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-01, server: node000001.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-02, server: node000003.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-03, server: node000005.likeone.lol, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-06, server: node000001.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-07, server: node000003.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-08, server: node000005.likeone.lol, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-11, server: node000001.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-12, server: node000003.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇺🇸 vip1 美国-13, server: node000005.likeone.lol, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇻🇳 vip1 越南-01, server: node000001.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇻🇳 vip1 越南-02, server: node000003.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇻🇳 vip1 越南-03, server: node000005.likeone.lol, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇮🇳 vip1 印度-01, server: node000001.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇮🇳 vip1 印度-02, server: node000003.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇮🇳 vip1 印度-03, server: node000005.likeone.lol, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: node000001.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: node000003.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: node000005.likeone.lol, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇹🇷 vip1 土耳其-01, server: node000001.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇹🇷 vip1 土耳其-02, server: node000003.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇹🇷 vip1 土耳其-03, server: node000005.likeone.lol, port: 15762, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇩🇪 vip1 德国-01, server: node000001.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇩🇪 vip1 德国-02, server: node000003.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇩🇪 vip1 德国-03, server: node000005.likeone.lol, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇬🇧 vip1 英国-01, server: node000001.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇬🇧 vip1 英国-02, server: node000003.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 🇬🇧 vip1 英国-03, server: node000005.likeone.lol, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 0b11e9cc-483f-46b7-84b3-973c8ffaf75b}
+  - {name: 距离下次重置剩余：3 天 2, server: node000003.likeone.lol, port: 26681, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: gdct003.jcnode.top, skip-cert-verify: true}
+  - {name: JCBB大陆永久跳转地址 https://jcbb.cc, server: node000003.likeone.lol, port: 26681, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: gdct003.jcnode.top, skip-cert-verify: true}
+  - {name: 国外永久跳转域名 https://jcbbs.shop, server: node000001.likeone.lol, port: 16343, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 01【vip1 】, server: node000005.likeone.lol, port: 51031, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 02【vip1 】, server: node000001.likeone.lol, port: 51031, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 03【vip1 】, server: node000003.likeone.lol, port: 51031, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 04【vip1 】, server: node000003.likeone.lol, port: 58464, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 05【vip1】, server: node000005.likeone.lol, port: 58464, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 JCBB_ 新加坡 06【vip1】, server: node000001.likeone.lol, port: 58464, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港01【vip1】, server: node000005.likeone.lol, port: 25974, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港02【vip1】, server: node000001.likeone.lol, port: 25974, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港03【vip1】, server: node000003.likeone.lol, port: 25974, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港04【vip1】, server: node000003.likeone.lol, port: 35257, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港05【vip1】, server: node000001.likeone.lol, port: 35257, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港06【vip1】, server: node000002.likeone.lol, port: 35257, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 07【vip1】, server: node000003.likeone.lol, port: 26023, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 08【vip1】, server: node000005.likeone.lol, port: 26023, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港 09【vip1】, server: node000001.likeone.lol, port: 26023, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港10【vip1】, server: node000003.likeone.lol, port: 15485, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港12【vip1】, server: node000005.likeone.lol, port: 15485, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 JCBB_香港13【vip1】, server: node000001.likeone.lol, port: 15485, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本01【vip1】, server: node000005.likeone.lol, port: 10327, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本02【vip1】, server: node000001.likeone.lol, port: 10327, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本03【vip1】, server: node000003.likeone.lol, port: 10327, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本04【vip1】, server: node000005.likeone.lol, port: 16483, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本05【vip1】, server: node000001.likeone.lol, port: 16483, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 JCBB_日本06【vip1】, server: node000003.likeone.lol, port: 16483, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 01【vip1】, server: node000001.likeone.lol, port: 64850, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 02【vip1】, server: node000003.likeone.lol, port: 64850, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 03【vip1】, server: node000005.likeone.lol, port: 64850, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 04【vip1】, server: node000005.likeone.lol, port: 47557, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 05【vip1】, server: node000001.likeone.lol, port: 47557, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 JCBB_ 台湾 06【vip1】, server: node000003.likeone.lol, port: 47557, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 01【vip1】, server: node000003.likeone.lol, port: 16343, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 02【vip1】, server: node000005.likeone.lol, port: 16343, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 JCBB_越南 03【vip1】, server: node000001.likeone.lol, port: 16343, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度01【vip1】, server: node000005.likeone.lol, port: 26094, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度02【vip1】, server: node000001.likeone.lol, port: 26094, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 JCBB_ 印度03【vip1】, server: node000003.likeone.lol, port: 26094, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国01【vip1】, server: node000005.likeone.lol, port: 42840, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国02【vip1】, server: node000001.likeone.lol, port: 42840, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 JCBB_ 英国03【vip1】, server: node000003.likeone.lol, port: 42840, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国01【vip1】, server: node000003.likeone.lol, port: 53279, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国02【vip1】, server: node000005.likeone.lol, port: 53279, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 JCBB_德国03【vip1】, server: node000001.likeone.lol, port: 53279, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 01【vip1】, server: node000001.likeone.lol, port: 60293, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 02【vip1】, server: node000003.likeone.lol, port: 60293, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 JCBB_土耳其 03【vip1】, server: node000005.likeone.lol, port: 60293, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国01【vip1】, server: node000001.likeone.lol, port: 48560, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国02【vip1】, server: node000003.likeone.lol, port: 48560, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国02_1【vip1】, server: node000005.likeone.lol, port: 48560, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 03【vip1】, server: node000005.likeone.lol, port: 10658, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 04【vip1】, server: node000003.likeone.lol, port: 10658, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_ 美国 04_1【vip1】, server: node000001.likeone.lol, port: 10658, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国05_1【vip1】, server: node000005.likeone.lol, port: 26681, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国05【vip1】, server: node000003.likeone.lol, port: 26681, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 JCBB_美国06【vip1】, server: node000001.likeone.lol, port: 26681, type: trojan, password: 38089f72-ab9a-4024-9f43-19dd98148275, sni: us04.ckcloud.info, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -337,6 +394,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -505,6 +619,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -674,6 +845,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -696,6 +924,24 @@ proxy-groups:
       - 🇨🇳 vip1 台湾-06
       - 🇨🇳 vip1 台湾-07
       - 🇨🇳 vip1 台湾-08
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -865,6 +1111,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1033,6 +1336,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1202,6 +1562,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1380,6 +1797,63 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 距离下次重置剩余：3 天 2
+      - JCBB大陆永久跳转地址 https://jcbb.cc
+      - 国外永久跳转域名 https://jcbbs.shop
+      - 🇸🇬 JCBB_ 新加坡 01【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 02【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 03【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 04【vip1 】
+      - 🇸🇬 JCBB_ 新加坡 05【vip1】
+      - 🇸🇬 JCBB_ 新加坡 06【vip1】
+      - 🇭🇰 JCBB_香港01【vip1】
+      - 🇭🇰 JCBB_香港02【vip1】
+      - 🇭🇰 JCBB_香港03【vip1】
+      - 🇭🇰 JCBB_香港04【vip1】
+      - 🇭🇰 JCBB_香港05【vip1】
+      - 🇭🇰 JCBB_香港06【vip1】
+      - 🇭🇰 JCBB_香港 07【vip1】
+      - 🇭🇰 JCBB_香港 08【vip1】
+      - 🇭🇰 JCBB_香港 09【vip1】
+      - 🇭🇰 JCBB_香港10【vip1】
+      - 🇭🇰 JCBB_香港12【vip1】
+      - 🇭🇰 JCBB_香港13【vip1】
+      - 🇯🇵 JCBB_日本01【vip1】
+      - 🇯🇵 JCBB_日本02【vip1】
+      - 🇯🇵 JCBB_日本03【vip1】
+      - 🇯🇵 JCBB_日本04【vip1】
+      - 🇯🇵 JCBB_日本05【vip1】
+      - 🇯🇵 JCBB_日本06【vip1】
+      - 🇨🇳 JCBB_ 台湾 01【vip1】
+      - 🇨🇳 JCBB_ 台湾 02【vip1】
+      - 🇨🇳 JCBB_ 台湾 03【vip1】
+      - 🇨🇳 JCBB_ 台湾 04【vip1】
+      - 🇨🇳 JCBB_ 台湾 05【vip1】
+      - 🇨🇳 JCBB_ 台湾 06【vip1】
+      - 🇻🇳 JCBB_越南 01【vip1】
+      - 🇻🇳 JCBB_越南 02【vip1】
+      - 🇻🇳 JCBB_越南 03【vip1】
+      - 🇮🇳 JCBB_ 印度01【vip1】
+      - 🇮🇳 JCBB_ 印度02【vip1】
+      - 🇮🇳 JCBB_ 印度03【vip1】
+      - 🇬🇧 JCBB_ 英国01【vip1】
+      - 🇬🇧 JCBB_ 英国02【vip1】
+      - 🇬🇧 JCBB_ 英国03【vip1】
+      - 🇩🇪 JCBB_德国01【vip1】
+      - 🇩🇪 JCBB_德国02【vip1】
+      - 🇩🇪 JCBB_德国03【vip1】
+      - 🇹🇷 JCBB_土耳其 01【vip1】
+      - 🇹🇷 JCBB_土耳其 02【vip1】
+      - 🇹🇷 JCBB_土耳其 03【vip1】
+      - 🇺🇸 JCBB_ 美国01【vip1】
+      - 🇺🇸 JCBB_ 美国02【vip1】
+      - 🇺🇸 JCBB_ 美国02_1【vip1】
+      - 🇺🇸 JCBB_ 美国 03【vip1】
+      - 🇺🇸 JCBB_ 美国 04【vip1】
+      - 🇺🇸 JCBB_ 美国 04_1【vip1】
+      - 🇺🇸 JCBB_美国05_1【vip1】
+      - 🇺🇸 JCBB_美国05【vip1】
+      - 🇺🇸 JCBB_美国06【vip1】
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
