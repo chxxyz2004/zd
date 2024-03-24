@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 561`
+`Total number of merge nodes: 566`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 64`
+`Total number of merge nodes: 69`
 
 - [Clash subscription](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `4`
-Updata：`2024-03-24 17:52:18`
+Updata：`2024-03-24 21:04:10`
 
 
 <details>
@@ -32620,38 +32620,46 @@ Updata：`2024-03-24 17:52:18`
 
 
 
+
+
+
+
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=38af0ca187d94f959ef25534324f263d`
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=38af0ca187d94f959ef25534324f263d`
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=9d63b08b28a033b35fcf675e78c9af01`
+
+
+
+>Trial subscription：
+`https://www.ckcloud.xyz/api/v1/client/subscribe?token=9d63b08b28a033b35fcf675e78c9af01`
+
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-03-23/ZRlbQ2s.txt`
+
+
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-03-23/ZRlbQ2s.txt`
 
 
 
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=f2b5c988b40ca4a18ba8523ef97bd684`
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-03-23/ZRlbQ2s.txt`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=19b2bb49596af77036a03eff3a8be0e4`
-
-
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=19b2bb49596af77036a03eff3a8be0e4`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=bd4212a56366aebfad4af30c076c426f`
-
-
->Trial subscription：
-`https://www.ckcloud.xyz/api/v1/client/subscribe?token=bd4212a56366aebfad4af30c076c426f`
-
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=58013bd9a95a5ce5de2338bdcac1d0b8`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=58013bd9a95a5ce5de2338bdcac1d0b8`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=f2b5c988b40ca4a18ba8523ef97bd684`
 
 
 
