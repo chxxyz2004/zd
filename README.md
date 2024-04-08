@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-08 14:57:15`
+Updata：`2024-04-08 18:01:21`
 
 
 <details>
@@ -33591,38 +33591,47 @@ Updata：`2024-04-08 14:57:15`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e020e5906972d10074112c0fa916ddb`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e020e5906972d10074112c0fa916ddb`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8394669dcc30dd9a4f476d32095397c8`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=5e020e5906972d10074112c0fa916ddb`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8394669dcc30dd9a4f476d32095397c8`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=8394669dcc30dd9a4f476d32095397c8`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=86c9f397c3b18827a2437672c06d30c9`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=86c9f397c3b18827a2437672c06d30c9`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=86c9f397c3b18827a2437672c06d30c9`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=006986d73e4aad4107ee80ed442fe12b`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=006986d73e4aad4107ee80ed442fe12b`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=006986d73e4aad4107ee80ed442fe12b`
 
 
 
