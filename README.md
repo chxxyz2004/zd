@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-08 23:50:18`
+Updata：`2024-04-09 02:58:27`
 
 
 <details>
@@ -33618,38 +33618,47 @@ Updata：`2024-04-08 23:50:18`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d382672b3dd62b5185c8c18fcb49170b`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d382672b3dd62b5185c8c18fcb49170b`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7790caf146695cec3d84e906ba391c8f`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=d382672b3dd62b5185c8c18fcb49170b`
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7790caf146695cec3d84e906ba391c8f`
-
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=7790caf146695cec3d84e906ba391c8f`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4e93ccea17a3c842cc828a146ba46397`
+
+>Trial subscription：
+`https://oss.v2rayse.com/proxies/data/2024-04-08/2sDtdpn.txt`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4e93ccea17a3c842cc828a146ba46397`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=4e93ccea17a3c842cc828a146ba46397`
+
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=60191c940c1fc8dc3035b5fce55f3ebb`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=60191c940c1fc8dc3035b5fce55f3ebb`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=60191c940c1fc8dc3035b5fce55f3ebb`
 
 
 
