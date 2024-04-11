@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `3`
-Updata：`2024-04-11 21:04:47`
+Updata：`2024-04-11 23:51:22`
 
 
 <details>
@@ -33825,38 +33825,47 @@ Updata：`2024-04-11 21:04:47`
 
 
 
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=3385e54f8413d3ef680a5f4f7c3a2672`
+
+
+
+
+
+
 
 
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=3385e54f8413d3ef680a5f4f7c3a2672`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f23f9a5ea26352387625365cff4467d4`
 
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
-
->Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=3385e54f8413d3ef680a5f4f7c3a2672`
 
 
 >Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f23f9a5ea26352387625365cff4467d4`
 
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
 
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f23f9a5ea26352387625365cff4467d4`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=306a1021a12ff78819f5e47ad4616234`
+`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=306a1021a12ff78819f5e47ad4616234`
+`https://oss.v2rayse.com/proxies/data/2024-04-11/QOUkhrh.txt`
+
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=306a1021a12ff78819f5e47ad4616234`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d5caec4aae6659e7c06fb90854399a8`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d5caec4aae6659e7c06fb90854399a8`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=2d5caec4aae6659e7c06fb90854399a8`
 
 
 
