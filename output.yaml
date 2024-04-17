@@ -5,6 +5,68 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: FastFly 永久跳转地址 https://fastfly.club, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: FastFly 国外地址： https://cloud.fastfly.top, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01, server: n00007.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-02, server: n00003.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-03, server: n00005.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-06, server: n00007.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-07, server: n00003.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-08, server: n00005.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01, server: n00007.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-02, server: n00003.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-03, server: n00005.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-06, server: n00007.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-07, server: n00003.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-08, server: n00005.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-11, server: n00007.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-12, server: n00003.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-13, server: n00005.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-16, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17, server: n00003.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-18, server: n00005.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01, server: n00007.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-02, server: n00003.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-03, server: n00005.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-06, server: n00007.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-07, server: n00003.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-08, server: n00005.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01, server: n00007.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-02, server: n00003.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-03, server: n00005.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06, server: n00007.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-07, server: n00003.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-08, server: n00005.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-01, server: n00007.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: my01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-02, server: n00003.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: my01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-03, server: n00005.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: my01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-06, server: n00007.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-07, server: n00003.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-08, server: n00005.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-11, server: n00007.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-12, server: n00003.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇺🇸 vip1 美国-13, server: n00005.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇻🇳 vip1 越南-01, server: n00007.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇻🇳 vip1 越南-02, server: n00003.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇻🇳 vip1 越南-03, server: n00005.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇮🇳 vip1 印度-01, server: n00007.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇮🇳 vip1 印度-02, server: n00003.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇮🇳 vip1 印度-03, server: n00005.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: n00007.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: n00003.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: n00005.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇹🇷 vip1 土耳其-01, server: n00007.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 vip1 土耳其-02, server: n00003.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 vip1 土耳其-03, server: n00005.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: 333eaea3-ac13-4459-8f73-2d358f23be39, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇩🇪 vip1 德国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇩🇪 vip1 德国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇬🇧 vip1 英国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇬🇧 vip1 英国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
+  - {name: 🇬🇧 vip1 英国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 333eaea3-ac13-4459-8f73-2d358f23be39}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 172.67.223.242, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2, server: 104.21.4.14, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}}
   - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 3, server: admin.arzonhost.ir, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: admin.arzonhost.ir}}}
@@ -28,97 +90,12 @@ proxies:
   - {name: 🇺🇸 _US_美国 7, server: us219.netfilx.live, port: 80, type: vmess, uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us219.netfilx.live}}}
   - {name: 🇺🇸 _US_美国 8, server: 104.19.40.48, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
   - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国 3, server: 104.19.40.99, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
-  - {name: FastFly 永久跳转地址 https://fastfly.club, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: FastFly 国外地址： https://cloud.fastfly.top, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01, server: n00007.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-02, server: n00003.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-03, server: n00005.bzdqsmzngpyyng.sbs, port: 20356, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-06, server: n00007.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-07, server: n00003.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-08, server: n00005.bzdqsmzngpyyng.sbs, port: 37581, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01, server: n00007.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-02, server: n00003.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-03, server: n00005.bzdqsmzngpyyng.sbs, port: 15976, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-06, server: n00007.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-07, server: n00003.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-08, server: n00005.bzdqsmzngpyyng.sbs, port: 14490, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-11, server: n00007.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-12, server: n00003.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-13, server: n00005.bzdqsmzngpyyng.sbs, port: 46912, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-16, server: n00007.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17, server: n00003.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-18, server: n00005.bzdqsmzngpyyng.sbs, port: 22704, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01, server: n00007.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-02, server: n00003.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-03, server: n00005.bzdqsmzngpyyng.sbs, port: 25074, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-06, server: n00007.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-07, server: n00003.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-08, server: n00005.bzdqsmzngpyyng.sbs, port: 35672, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01, server: n00007.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-02, server: n00003.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-03, server: n00005.bzdqsmzngpyyng.sbs, port: 21526, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06, server: n00007.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-07, server: n00003.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-08, server: n00005.bzdqsmzngpyyng.sbs, port: 40276, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇾 vip1 马来西亚-01, server: n00007.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: my01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇾 vip1 马来西亚-02, server: n00003.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: my01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇾 vip1 马来西亚-03, server: n00005.bzdqsmzngpyyng.sbs, port: 25881, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: my01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-06, server: n00007.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-07, server: n00003.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-08, server: n00005.bzdqsmzngpyyng.sbs, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-11, server: n00007.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-12, server: n00003.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇺🇸 vip1 美国-13, server: n00005.bzdqsmzngpyyng.sbs, port: 28625, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇻🇳 vip1 越南-01, server: n00007.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇻🇳 vip1 越南-02, server: n00003.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇻🇳 vip1 越南-03, server: n00005.bzdqsmzngpyyng.sbs, port: 54295, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇮🇳 vip1 印度-01, server: n00007.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇮🇳 vip1 印度-02, server: n00003.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇮🇳 vip1 印度-03, server: n00005.bzdqsmzngpyyng.sbs, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: n00007.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: n00003.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇦🇺 vip1 澳大利亚-03, server: n00005.bzdqsmzngpyyng.sbs, port: 63640, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇹🇷 vip1 土耳其-01, server: n00007.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 vip1 土耳其-02, server: n00003.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 vip1 土耳其-03, server: n00005.bzdqsmzngpyyng.sbs, port: 15762, type: trojan, password: faa86da8-c688-488e-985b-80e490350a60, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇩🇪 vip1 德国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇩🇪 vip1 德国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 20943, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇬🇧 vip1 英国-01, server: n00007.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇬🇧 vip1 英国-02, server: n00003.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
-  - {name: 🇬🇧 vip1 英国-03, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: faa86da8-c688-488e-985b-80e490350a60}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -181,34 +158,34 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -271,35 +248,35 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -362,6 +339,29 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -390,29 +390,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -475,34 +452,34 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -565,35 +542,35 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -656,6 +633,29 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -671,29 +671,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
-      - 🇺🇸 _US_美国
-      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国 3
-      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
-      - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -756,6 +733,29 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-03
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 5
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国->🇹🇷_TR_土耳其
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国 3
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 _US_美国 6
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国->🇬🇧_GB_英国 3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
