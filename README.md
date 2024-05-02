@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-05-02 11:34:07`
+Updata：`2024-05-02 14:37:57`
 
 
 <details>
@@ -35214,8 +35214,12 @@ Updata：`2024-05-02 11:34:07`
 
 
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
+
+
+
+
+
+
 
 
 >Trial subscription：
@@ -35229,17 +35233,21 @@ Updata：`2024-05-02 11:34:07`
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3e30e59f125bdb26efa30a1d4cc0f30b`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3e30e59f125bdb26efa30a1d4cc0f30b`
+`https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3e30e59f125bdb26efa30a1d4cc0f30b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=3e30e59f125bdb26efa30a1d4cc0f30b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
 
 
 
