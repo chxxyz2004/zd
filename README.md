@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 499`
+`Total number of merge nodes: 496`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 58`
+`Total number of merge nodes: 55`
 
 - [Clash subscription](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-05-02 14:37:57`
+Updata：`2024-05-02 17:33:25`
 
 
 <details>
@@ -35222,32 +35222,40 @@ Updata：`2024-05-02 14:37:57`
 
 
 
+
+
+
+
+
+
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f8547b71cae37777c12337f9f6e4ad34`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f8547b71cae37777c12337f9f6e4ad34`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f8547b71cae37777c12337f9f6e4ad34`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f8547b71cae37777c12337f9f6e4ad34`
+
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
 
-
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
-
-
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
-
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
-
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=f7e4f41aa34ecf2847605c471da4e2a3`
+`https://oss.v2rayse.com/proxies/data/2024-05-02/FJDJCPw.txt`
 
 
 
