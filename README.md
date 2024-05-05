@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 407`
+`Total number of merge nodes: 404`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 50`
+`Total number of merge nodes: 47`
 
 - [Clash subscription](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-05-05 14:38:59`
+Updata：`2024-05-05 17:35:26`
 
 
 <details>
@@ -35414,20 +35414,28 @@ Updata：`2024-05-05 14:38:59`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=59ba930f3fa8fa5ae8eb49f8ac87017b`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=59ba930f3fa8fa5ae8eb49f8ac87017b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=577d9c3b888708324ea7972e485f0564`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=59ba930f3fa8fa5ae8eb49f8ac87017b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=577d9c3b888708324ea7972e485f0564`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=59ba930f3fa8fa5ae8eb49f8ac87017b`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=577d9c3b888708324ea7972e485f0564`
+
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=577d9c3b888708324ea7972e485f0564`
 
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-05-05/24S9HBX.txt`
