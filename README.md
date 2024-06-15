@@ -20,7 +20,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
   
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`
-`Total number of merge nodes: 284`
+`Total number of merge nodes: 286`
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`
@@ -52,7 +52,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 
 - [Multiprotocol Base64 encoding](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`
-`Total number of merge nodes: 32`
+`Total number of merge nodes: 34`
 
 - [Clash subscription](https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2.yaml)
 `https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1.yaml`
@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2024-06-15 09:34:08`
+Updata：`2024-06-15 11:52:58`
 
 
 <details>
@@ -38327,8 +38327,12 @@ Updata：`2024-06-15 09:34:08`
 
 
 
->Trial subscription：
-`https://oss.v2rayse.com/proxies/data/2024-06-15/mZ2KNoA.txt`
+
+
+
+
+
+
 
 
 >Trial subscription：
@@ -38342,17 +38346,21 @@ Updata：`2024-06-15 09:34:08`
 >Trial subscription：
 `https://oss.v2rayse.com/proxies/data/2024-06-15/mZ2KNoA.txt`
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c3b84462fe501118f63ad9a004b643ab`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c3b84462fe501118f63ad9a004b643ab`
+`https://oss.v2rayse.com/proxies/data/2024-06-15/mZ2KNoA.txt`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c3b84462fe501118f63ad9a004b643ab`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=79df6a5c8b54e6fba3306bbc8c20dfcb`
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=c3b84462fe501118f63ad9a004b643ab`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=79df6a5c8b54e6fba3306bbc8c20dfcb`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=79df6a5c8b54e6fba3306bbc8c20dfcb`
+
+>Trial subscription：
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=79df6a5c8b54e6fba3306bbc8c20dfcb`
 
 
 
