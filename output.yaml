@@ -5,6 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: FastFly 国外地址： https://cloud.fastfly.top, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-02, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: jp01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 57230, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇯🇵 vip1 日本-06, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-07, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: jp03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1 日本-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 16123, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇭🇰 vip1 香港-01, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-02, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 27236, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇭🇰 vip1 香港-06, server: fly0001.flyflylflyflysbs.sbs, port: 14490, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-07, server: fly0001.flyflylflyflysbs.sbs, port: 14490, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 34090, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇭🇰 vip1 香港-11, server: fly0001.flyflylflyflysbs.sbs, port: 46912, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-12, server: fly0001.flyflylflyflysbs.sbs, port: 46912, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-16, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-17, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: hk05.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1 香港-16 测试, server: fly0001.flyflylflyflysbs.sbs, port: 62690, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇰🇷 vip1 韩国-01, server: fly0001.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇰🇷 vip1 韩国-02, server: f10002.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-02, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tw01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29935, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇨🇳 vip1 台湾-06, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-07, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tw02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇨🇳 vip1 台湾-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 38120, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇸🇬 vip1 新加坡-01, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-02, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sg02.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 33957, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇸🇬 vip1 新加坡-06, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-07, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: sg01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1 新加坡-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 43445, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇲🇾 vip1 马来西亚-01, server: fly0001.flyflylflyflysbs.sbs, port: 25881, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: my01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-02, server: fly0001.flyflylflyflysbs.sbs, port: 25881, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: my01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇲🇾 vip1 马来西亚-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 55561, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 vip1 美国-01, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-02, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us2.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 10682, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 vip1 美国-06, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-07, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us03.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 46675, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇺🇸 vip1 美国-11, server: fly0001.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-12, server: fly0001.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-13, server: f10002.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: us04.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1 美国-11 测试, server: fly0001.flyflylflyflysbs.sbs, port: 46121, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇻🇳 vip1 越南-01, server: fly0001.flyflylflyflysbs.sbs, port: 54295, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-02, server: fly0001.flyflylflyflysbs.sbs, port: 54295, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: vn01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇻🇳 vip1 越南-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 39609, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇮🇳 vip1 印度-01, server: fly0001.flyflylflyflysbs.sbs, port: 45852, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-02, server: fly0001.flyflylflyflysbs.sbs, port: 45852, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: id01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇮🇳 vip1 印度-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 44231, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: fly0001.flyflylflyflysbs.sbs, port: 63640, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: aus01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: fly0001.flyflylflyflysbs.sbs, port: 63640, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: aus01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇦🇺 vip1 澳大利亚-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 12838, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇹🇷 vip1 土耳其-01, server: fly0001.flyflylflyflysbs.sbs, port: 15762, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 vip1 土耳其-02, server: fly0001.flyflylflyflysbs.sbs, port: 15762, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: tur01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇹🇷 vip1 土耳其-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29970, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇩🇪 vip1 德国-01, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-02, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: de01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇩🇪 vip1 德国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 26503, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
+  - {name: 🇬🇧 vip1 英国-01, server: fly0001.flyflylflyflysbs.sbs, port: 39788, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-02, server: fly0001.flyflylflyflysbs.sbs, port: 39788, type: trojan, password: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, sni: uk01.ckcloud.info, skip-cert-verify: true}
+  - {name: 🇬🇧 vip1 英国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 56394, type: vmess, uuid: b5ddaa3d-cfd6-4047-9ef2-26b1ac82b25f, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 _US_美国, server: 23.162.200.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 未知, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -25,96 +89,12 @@ proxies:
   - {name: 🇿🇦 _ZA_南非, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: 🇺🇸 _US_美国 3, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 _SG_新加坡, server: 52.77.246.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: FastFly 永久跳转地址 https://fastfly.club, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: FastFly 国外地址： https://cloud.fastfly.top, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-02, server: fly0001.flyflylflyflysbs.sbs, port: 20356, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: jp01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 57230, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇯🇵 vip1 日本-06, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-07, server: fly0001.flyflylflyflysbs.sbs, port: 37581, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: jp03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1 日本-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 16123, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇭🇰 vip1 香港-01, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-02, server: fly0001.flyflylflyflysbs.sbs, port: 15976, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 27236, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇭🇰 vip1 香港-06, server: fly0001.flyflylflyflysbs.sbs, port: 14490, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-07, server: fly0001.flyflylflyflysbs.sbs, port: 14490, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 34090, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇭🇰 vip1 香港-11, server: fly0001.flyflylflyflysbs.sbs, port: 46912, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-12, server: fly0001.flyflylflyflysbs.sbs, port: 46912, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-16, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-17, server: fly0001.flyflylflyflysbs.sbs, port: 22704, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: hk05.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1 香港-16 测试, server: fly0001.flyflylflyflysbs.sbs, port: 62690, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇰🇷 vip1 韩国-01, server: fly0001.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇰🇷 vip1 韩国-02, server: f10002.flyflylflyflysbs.sbs, port: 14374, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-02, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tw01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29935, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇨🇳 vip1 台湾-06, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-07, server: fly0001.flyflylflyflysbs.sbs, port: 35672, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tw02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇨🇳 vip1 台湾-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 38120, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇸🇬 vip1 新加坡-01, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-02, server: fly0001.flyflylflyflysbs.sbs, port: 21526, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sg02.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 33957, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇸🇬 vip1 新加坡-06, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-07, server: fly0001.flyflylflyflysbs.sbs, port: 40276, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: sg01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1 新加坡-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 43445, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇲🇾 vip1 马来西亚-01, server: fly0001.flyflylflyflysbs.sbs, port: 25881, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: my01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇾 vip1 马来西亚-02, server: fly0001.flyflylflyflysbs.sbs, port: 25881, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: my01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇲🇾 vip1 马来西亚-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 55561, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇺🇸 vip1 美国-01, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-02, server: fly0001.flyflylflyflysbs.sbs, port: 10598, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 10682, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇺🇸 vip1 美国-06, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-07, server: fly0001.flyflylflyflysbs.sbs, port: 10519, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-06 测试, server: fly0001.flyflylflyflysbs.sbs, port: 46675, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇺🇸 vip1 美国-11, server: fly0001.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-12, server: fly0001.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-13, server: f10002.flyflylflyflysbs.sbs, port: 28625, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: us04.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1 美国-11 测试, server: fly0001.flyflylflyflysbs.sbs, port: 46121, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇻🇳 vip1 越南-01, server: fly0001.flyflylflyflysbs.sbs, port: 54295, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-02, server: fly0001.flyflylflyflysbs.sbs, port: 54295, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: vn01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇻🇳 vip1 越南-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 39609, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇮🇳 vip1 印度-01, server: fly0001.flyflylflyflysbs.sbs, port: 45852, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-02, server: fly0001.flyflylflyflysbs.sbs, port: 45852, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇮🇳 vip1 印度-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 44231, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: fly0001.flyflylflyflysbs.sbs, port: 63640, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: fly0001.flyflylflyflysbs.sbs, port: 63640, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: aus01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇦🇺 vip1 澳大利亚-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 12838, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇹🇷 vip1 土耳其-01, server: fly0001.flyflylflyflysbs.sbs, port: 15762, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 vip1 土耳其-02, server: fly0001.flyflylflyflysbs.sbs, port: 15762, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: tur01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇹🇷 vip1 土耳其-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 29970, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇩🇪 vip1 德国-01, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-02, server: fly0001.flyflylflyflysbs.sbs, port: 20943, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: de01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇩🇪 vip1 德国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 26503, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
-  - {name: 🇬🇧 vip1 英国-01, server: fly0001.flyflylflyflysbs.sbs, port: 39788, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-02, server: fly0001.flyflylflyflysbs.sbs, port: 39788, type: trojan, password: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, sni: uk01.ckcloud.info, skip-cert-verify: true}
-  - {name: 🇬🇧 vip1 英国-01 测试, server: fly0001.flyflylflyflysbs.sbs, port: 56394, type: vmess, uuid: 36f7beb0-37bd-46ec-b662-9ed957aaff8c, alterId: 0, cipher: auto, tls: true, servername: fly0001.flyflylflyflysbs.sbs, network: grpc, grpc-opts: {grpc-service-name: flynwn}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -179,31 +159,31 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -268,32 +248,32 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -358,6 +338,26 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -385,26 +385,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -469,31 +449,31 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -558,32 +538,32 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -648,6 +628,26 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -663,26 +663,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国
-      - 未知
-      - 🇺🇾 _UY_乌拉圭
-      - 未知 2
-      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
-      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
-      - 未知 3
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
-      - _CN_中国
-      - 🇿🇦 _ZA_南非
-      - 🇺🇸 _US_美国 3
-      - 🇸🇬 _SG_新加坡
       - FastFly 永久跳转地址 https://fastfly.club
       - FastFly 国外地址： https://cloud.fastfly.top
       - 🇯🇵 vip1 日本-01
@@ -747,6 +727,26 @@ proxy-groups:
       - 🇬🇧 vip1 英国-01
       - 🇬🇧 vip1 英国-02
       - 🇬🇧 vip1 英国-01 测试
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国
+      - 未知
+      - 🇺🇾 _UY_乌拉圭
+      - 未知 2
+      - 🇨🇦 _CA_加拿大->🇷🇺_RU_俄罗斯
+      - 🇫🇷 _CN_中国->🇫🇷_FR_法国
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 2
+      - 🇺🇸 _US_美国 2
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 4
+      - 未知 3
+      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯
+      - _CN_中国
+      - 🇿🇦 _ZA_南非
+      - 🇺🇸 _US_美国 3
+      - 🇸🇬 _SG_新加坡
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
