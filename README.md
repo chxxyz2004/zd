@@ -68,7 +68,7 @@ ps: Increase to 8 subscription links, each about 150 (uncertain) to avoid too ma
 </details>
 
 ### Try the number of high-speed subscriptions: `2`
-Updata：`2025-01-14 20:41:12`
+Updata：`2025-01-14 23:22:54`
 
 
 <details>
@@ -51802,32 +51802,40 @@ Updata：`2025-01-14 20:41:12`
 
 
 
->Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=010deafa4a7cadf7ee44151b2cfe2ca3`
+
+
+
+
+
+
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=010deafa4a7cadf7ee44151b2cfe2ca3`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=730b97938ea62911531b8ac0882d9172`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=010deafa4a7cadf7ee44151b2cfe2ca3`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=730b97938ea62911531b8ac0882d9172`
 
 
 >Trial subscription：
-`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=010deafa4a7cadf7ee44151b2cfe2ca3`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=730b97938ea62911531b8ac0882d9172`
+
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7395cf6c391e9f8e328168c8c4fc5726`
+`https://xn--30rs3bu7r87f.com/api/v1/client/subscribe?token=730b97938ea62911531b8ac0882d9172`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7395cf6c391e9f8e328168c8c4fc5726`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c4f56d3855efeb99ddca4fdb7917f9f6`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7395cf6c391e9f8e328168c8c4fc5726`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c4f56d3855efeb99ddca4fdb7917f9f6`
 
 >Trial subscription：
-`https://fastestcloud.xyz/api/v1/client/subscribe?token=7395cf6c391e9f8e328168c8c4fc5726`
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c4f56d3855efeb99ddca4fdb7917f9f6`
+
+>Trial subscription：
+`https://fastestcloud.xyz/api/v1/client/subscribe?token=c4f56d3855efeb99ddca4fdb7917f9f6`
 
 
 
